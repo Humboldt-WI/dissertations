@@ -1,0 +1,6 @@
+# Master-Thesis
+Master Thesis in M.Sc. Management &amp; Economics Master Science, Humboldt University
+
+## Abstract
+Aspect Based Sentiment Analysis (ABSA) is a highly important task in natural language processing. It goes further than a traditional sentiment analysis, as it assigns different sentiments to different aspects in the same sentence or paragraph. Since its introduction, researchers have been applying various different machine learning models in the context of ABSA. Among them, attention-based transformer models, such as Bidirectional Encoder Representations from Transformers (BERT), have been shown to be more effective than  traditional machine learning models and neural networks. 
+This thesis serves two primary purposes. Firstly, to give an overview of different models that have been used in the literature over time. In particular, it is argued that BERT has been increasingly used and that this is due to its attention mechanism. Secondly, task-specific BERT models were applied to three ABSA tasks and compared to variations of previous models. The BERT models showed higher F1-scores than their benchmark models in each of the tasks. Drawing from both the literature and from the experiments, it is argued that BERT models can be relevant competitors to previous models.

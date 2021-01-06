@@ -1,9 +1,13 @@
-# Reject Inference using Generative Adversarial Neural Networks
-*V. Simoncikova*
+# bus-network-modelling-and-analysis
+This is the R  project for the master thesis of Serpinskaya Marina, student of the Master program Information Systems at HU Berlin. 
 
-Accompanying code for Master's thesis \
-*Humboldt Universität zu Berlin* \
-*School of Business and Economics* \
-*Chair of Information Systems* 
+This project include "scripts" folder (contains all notebooks and script with code), and also empty folder "figures" and "raw-data" which
+are used for the temporary saving of the files.
 
-Homecredit data here: https://drive.google.com/file/d/1DwEiKaqEtMXRQ9NmMMPmGxda9uAsv0GW/view?usp=sharing 
+The blocks of the code as they described in the thesis at page 18 of the thesis included in the folder "scripts" and should be run the consequence:
+1. 1_network-from-GTFS-visualization
+2. 2_processing-geo-and-population-data
+3. 3_modelling-basic-network
+4. 4_link_prediction
+
+The code was built under R ver.4.0.3 and tested and executed in the RStudio.
