@@ -33,7 +33,7 @@ The repository contains python implementation of six different models, namely:
 ## Requirements
 The following package versions have been used to develop this work.
 ```
-python 3.7.9
+python==3.7.9
 lifelines==0.25.4
 pandas==1.1.4
 pycox==0.2.1
