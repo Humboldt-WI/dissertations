@@ -63,8 +63,12 @@ For each model a directory have been created that contains the python notebooks:
 * Deepsurv: contains two notebooks:
   * M1_Deepsurv: is the model implementation for M1 dataset, a change of the path to file location in the script is required, also the event of interest (default or payoff) should be modified in order to get the aimed results.
   * M2_Deepsurv: is the model implementation for M2 dataset, a change of the path to file location in the script is required and chosing the batch, also the event of interest (default or payoff) should be modified in order to get the required results.
-* Cox-Time and Nnet-survival have the same logic.
-
+* Cox-Time and Nnet-survival have the same logic as Deepsurv.
+* Deephit: contains one python notebook, in order to replicate the results, a change of the path to file location in the script is required. After that the varibale data_mode should be modified in order to decide on the dataset and the event of interest (default or payoff), 
+ * passing mort_d to the data_mode, M1 dataset is chossen with default as the event of interest,
+ * passing mort_p to the data_mode, M1 dataset is chossen with payoff as the event of interest,
+ * passing ndb_d to the data_mode, M2 dataset is chossen with default as the event of interest, and in this case an additional variable have to be set, variable data_number, which set the number of the batch of interest of M2 dataset, which are ten batches.  
+ * passing ndb_p to the data_mode, M2 dataset is chossen with payoff as the event of interest, and again an additional variable have to be set, variable data_number, which set the number of the batch of interest of M2 dataset, which are ten batches.
 
 ## References
   \[1\] Katzman, J. L., Shaham, U., Cloninger, A., Bates, J., Jiang, T., & Kluger, Y. (2018). Deepsurv:
