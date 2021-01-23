@@ -60,7 +60,7 @@ encoded features, so the preprocessed data for DSRA can be found in [*data*](./D
 
 ## Implementation
 
-For each model a directory have been created that contains the python notebooks: 
+For each model a directory has been created that contains the python notebooks: 
 * Deepsurv: contains two notebooks:
   * M1_Deepsurv: is the model implementation for M1 dataset, a change of the path to file location in the script is required, also the event of interest (default or payoff) should be modified in order to get the aimed results.
   * M2_Deepsurv: is the model implementation for M2 dataset, a change of the path to file location in the script is required and chosing the batch, also the event of interest (default or payoff) should be modified in order to get the required results.
