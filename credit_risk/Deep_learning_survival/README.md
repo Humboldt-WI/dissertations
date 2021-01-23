@@ -27,7 +27,7 @@ The repository contains python implementation of six different models, namely:
 * Cox-Time (Kvamme et al., 2019)<a href="#references">[2]</a>, was implemented using [pycox](https://github.com/havakv/pycox) package.
 * DeepHit (Lee et al., 2018)<a href="#references">[3]</a>, the orignal code published by the author on their respective [GitHub](https://github.com/chl8856/DeepHit) was used and adjustments were madeto the code in order to adopt it for our experiment.
 * Nnet-survival (Gensheimer & Narasimhan, 2019)<a href="#references">[4]</a>, was implemented using [pycox](https://github.com/havakv/pycox) package.
-* DRSA (Ren et al., 2019a)<a href="#references">[5]</a>, the orignal code published by the author on their respective [GitHub](https://github.com/rk2900/DRSA) was used and adjustments were made to the code in order to adopt it for our experiment.
+* DRSA (Ren et al., 2019)<a href="#references">[5]</a>, the orignal code published by the author on their respective [GitHub](https://github.com/rk2900/DRSA) was used and adjustments were made to the code in order to adopt it for our experiment.
 * DATE (Chapfuwa et al., 2018)<a href="#references">[6]</a>, the orignal code published by the author on their respective [GitHub](https://github.com/paidamoyo/adversarial_time_to_event) was used and adjustments were made to the code in order to adopt it for our experiment.
 
 
@@ -53,7 +53,7 @@ We consider the following datasets:
 - [M1 (U.S mortgage data provided by International Financial Research)](http://www.internationalfinancialresearch.org)
 - M2 (single-family US mortgage loans collected by (Blumenstock et al., 2020) <a href="#references">[7]</a>).
 
-The [*datasets*](./datasets) directory contains M1 dataset (named as mortgage) and ten batches from M2 (named as data batches).
+The [*datasets*](./datasets) directory contains M1 dataset (inside mortgage directory) and ten batches from M2 (inside data batches directory).
 
 In the case of DRSA model, the model requires that the input data to be in the form of multi-hot encoded feature vector including a series of one-hot
 encoded features, so the preprocessed data for DSRA can be found in [*data*](./DRSA/data) directory inside DRSA directory. For more information on the data preprocessing process, the python notebooks inside [*preprocessing*](./DRSA/preprocessing) directory are provided.
