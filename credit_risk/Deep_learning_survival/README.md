@@ -54,6 +54,11 @@ We consider the following datasets:
 
 The [*datasets*](./datasets) directory contains M1 dataset (named as mortgage) and ten batches from M2 (named as data batches).
 
+In the case of DRSA model, the model requires that the input data to be in the form of multi-hot encoded feature vector including a series of one-hot
+encoded features, so the preprocessed data for DSRA can be found in [*data*](./DRSA/data) directory inside DRSA directory.  
+
+
+
 ## References
   \[1\] Katzman, J. L., Shaham, U., Cloninger, A., Bates, J., Jiang, T., & Kluger, Y. (2018). Deepsurv:
 Personalized treatment recommender system using a cox proportional hazards deep
