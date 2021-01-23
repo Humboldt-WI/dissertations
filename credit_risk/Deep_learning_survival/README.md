@@ -69,6 +69,8 @@ For each model a directory have been created that contains the python notebooks:
   * passing mort_p to the data_mode, M1 dataset is chossen with payoff as the event of interest,
   * passing ndb_d to the data_mode, M2 dataset is chossen with default as the event of interest, and in this case an additional variable have to be set, variable data_number, which set the number of the batch of interest of M2 dataset, which are ten batches.  
   * passing ndb_p to the data_mode, M2 dataset is chossen with payoff as the event of interest, and again an additional variable have to be set, variable data_number, which set the number of the batch of interest of M2 dataset, which are ten batches.
+* DRSA: in addition to the change of the path to file location in the script, the size of the embedding has to be set by assigning the max length of the dictionary to the varibale MAX_DEN.
+* DATE: contains four python notebooks, based on the choice of the dataset and the event of interest, and only change of the path to file location in the script is required.
 
 ## References
   \[1\] Katzman, J. L., Shaham, U., Cloninger, A., Bates, J., Jiang, T., & Kluger, Y. (2018). Deepsurv:
