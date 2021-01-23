@@ -1,5 +1,5 @@
 # Deep Learning for Survival Analysis in Credit Risk Modelling: A Benchmark Study
-> This repository contains the python implementation for the expirment part in the master thesis, and also the datasets the has been used, for replication purposes. 
+> This repository contains the python implementation for the expirment part in the master thesis, and also the datasets the have been used, for replication purposes. 
 
 ## Table of contents
 * [Abstract](#abstract)
