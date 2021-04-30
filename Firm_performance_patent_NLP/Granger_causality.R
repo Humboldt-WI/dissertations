@@ -5,15 +5,16 @@ library(lmtest) # for BP test
 
 
 # Read the datasets
-asset_causality_min_9 <- read.csv("/Users/Melike/Desktop/Causality/asset_causality_min_9.csv", stringsAsFactors = FALSE)
-asset_causality_min_10 <- read.csv("/Users/Melike/Desktop/Causality/asset_causality_min_10.csv", stringsAsFactors = FALSE)
-asset_causality_min_9_50 <- read.csv("/Users/Melike/Desktop/Causality/asset_causality_min_9_50.csv", stringsAsFactors = FALSE)
-asset_causality_min_10_50 <- read.csv("/Users/Melike/Desktop/Causality/asset_causality_min_10_50.csv", stringsAsFactors = FALSE)
+# The datasets can be prepared in the "Data Preparation for Causality Analysis" section of the "modeling.ipynb" notebook. Then, they should be saved on the PC or Google Drive read from there accordingly. 
+asset_causality_min_9 <- read.csv("asset_causality_min_9.csv", stringsAsFactors = FALSE)
+asset_causality_min_10 <- read.csv("asset_causality_min_10.csv", stringsAsFactors = FALSE)
+asset_causality_min_9_50 <- read.csv("asset_causality_min_9_50.csv", stringsAsFactors = FALSE)
+asset_causality_min_10_50 <- read.csv("asset_causality_min_10_50.csv", stringsAsFactors = FALSE)
 
-rev_causality_min_9 <- read.csv("/Users/Melike/Desktop/Causality/rev_causality_min_9.csv", stringsAsFactors = FALSE)
-rev_causality_min_10 <- read.csv("/Users/Melike/Desktop/Causality/rev_causality_min_10.csv", stringsAsFactors = FALSE)
-rev_causality_min_9_50 <- read.csv("/Users/Melike/Desktop/Causality/rev_causality_min_9_50.csv", stringsAsFactors = FALSE)
-rev_causality_min_10_50 <- read.csv("/Users/Melike/Desktop/Causality/rev_causality_min_10_50.csv", stringsAsFactors = FALSE)
+rev_causality_min_9 <- read.csv("rev_causality_min_9.csv", stringsAsFactors = FALSE)
+rev_causality_min_10 <- read.csv("rev_causality_min_10.csv", stringsAsFactors = FALSE)
+rev_causality_min_9_50 <- read.csv("rev_causality_min_9_50.csv", stringsAsFactors = FALSE)
+rev_causality_min_10_50 <- read.csv("rev_causality_min_10_50.csv", stringsAsFactors = FALSE)
 
 
 # Panel data conversion
