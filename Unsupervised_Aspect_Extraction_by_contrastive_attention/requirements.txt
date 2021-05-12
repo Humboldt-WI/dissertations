@@ -1,0 +1,9 @@
+lxml
+nltk
+gensim
+cat
+reach
+scikit-learn
+tqdm
+spacy
+numpy
