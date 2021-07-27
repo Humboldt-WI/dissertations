@@ -1,0 +1,238 @@
+E. Okon 11 {'hep-th': 0.18181818181818182, 'quant-ph': 0.6363636363636365, 'gr-qc': 0.18181818181818182}
+D. Sudarsky 15 {'gr-qc': 0.4666666666666666, 'quant-ph': 0.26666666666666666, 'astro-ph': 0.26666666666666666}
+T. Nagao 15 {'cond-mat.stat-mech': 0.06666666666666667, 'hep-th': 0.2, 'astro-ph.SR': 0.06666666666666667, 'astro-ph': 0.3333333333333333, 'quant-ph': 0.06666666666666667, 'math-ph': 0.06666666666666667, 'cond-mat.mes-hall': 0.06666666666666667, 'solv-int': 0.06666666666666667, 'physics.geo-ph': 0.06666666666666667}
+F. Patat 15 {'astro-ph': 0.7999999999999999, 'astro-ph.IM': 0.13333333333333333, 'astro-ph.GA': 0.06666666666666667}
+S. Taubenberger 15 {'astro-ph.IM': 0.06666666666666667, 'astro-ph.SR': 0.3333333333333333, 'astro-ph.HE': 0.4666666666666666, 'astro-ph.CO': 0.06666666666666667, 'astro-ph': 0.06666666666666667}
+A. N. Petrov 15 {'gr-qc': 0.7333333333333333, 'physics.atom-ph': 0.26666666666666666}
+Abhishek Agarwal 15 {'hep-th': 0.8666666666666666, 'cs.IT': 0.13333333333333333}
+E. Koulouridis 15 {'astro-ph.GA': 0.26666666666666666, 'astro-ph.CO': 0.39999999999999997, 'astro-ph': 0.26666666666666666, 'astro-ph.IM': 0.06666666666666667}
+N. Clerc 15 {'astro-ph.CO': 0.9999999999999999}
+T. Sadibekova 15 {'astro-ph.CO': 0.6666666666666666, 'astro-ph.IM': 0.13333333333333333, 'astro-ph.GA': 0.2}
+Anne E. B. Nielsen 15 {'quant-ph': 0.7333333333333333, 'cond-mat.str-el': 0.26666666666666666}
+D. L. Holdsworth 14 {'astro-ph.SR': 0.9999999999999997}
+M. S. Cunha 15 {'astro-ph': 0.5333333333333333, 'hep-th': 0.3333333333333333, 'astro-ph.SR': 0.06666666666666667, 'quant-ph': 0.06666666666666667}
+D. W. Kurtz 15 {'astro-ph': 0.6666666666666666, 'astro-ph.SR': 0.3333333333333333}
+G. E. Astrakharchik 15 {'cond-mat.str-el': 0.06666666666666667, 'cond-mat.quant-gas': 0.4666666666666666, 'cond-mat': 0.2, 'cond-mat.other': 0.06666666666666667, 'cond-mat.soft': 0.2}
+J. Boronat 15 {'cond-mat': 0.39999999999999997, 'cond-mat.other': 0.39999999999999997, 'cond-mat.stat-mech': 0.13333333333333333, 'cond-mat.soft': 0.06666666666666667}
+S. Kumaran 10 {'hep-ex': 0.7999999999999999, 'physics.ins-det': 0.1, 'hep-ph': 0.1}
+M. Agostini 15 {'physics.data-an': 0.3333333333333333, 'hep-ph': 0.06666666666666667, 'nlin.CG': 0.06666666666666667, 'physics.plasm-ph': 0.13333333333333333, 'physics.ins-det': 0.3333333333333333, 'astro-ph.HE': 0.06666666666666667}
+Stephane Lafortune 15 {'nlin.SI': 0.26666666666666666, 'nlin.PS': 0.2, 'cs.LO': 0.06666666666666667, 'cs.CR': 0.13333333333333333, 'solv-int': 0.06666666666666667, 'cs.SE': 0.06666666666666667, 'eess.SY': 0.06666666666666667, 'cs.FL': 0.06666666666666667, 'math.AP': 0.06666666666666667}
+Dmitry E. Pelinovsky 15 {'math.AP': 0.39999999999999997, 'nlin.SI': 0.06666666666666667, 'cond-mat.other': 0.06666666666666667, 'math.CA': 0.06666666666666667, 'nlin.PS': 0.26666666666666666, 'solv-int': 0.06666666666666667, 'math-ph': 0.06666666666666667}
+R. Abbasi 15 {'astro-ph': 0.2, 'astro-ph.HE': 0.5333333333333333, 'astro-ph.CO': 0.13333333333333333, 'astro-ph.IM': 0.13333333333333333}
+M. Ackermann 15 {'astro-ph': 0.39999999999999997, 'astro-ph.HE': 0.3333333333333333, 'cond-mat.str-el': 0.26666666666666666}
+J. Adams 15 {'hep-ex': 0.2, 'nucl-ex': 0.7333333333333333, 'astro-ph': 0.06666666666666667}
+Rahul Gupta 15 {'cs.LG': 0.06666666666666667, 'math.AG': 0.4666666666666666, 'cs.AI': 0.2, 'stat.ML': 0.06666666666666667, 'cond-mat.soft': 0.06666666666666667, 'cs.IR': 0.06666666666666667, 'math-ph': 0.06666666666666667}
+S. R. Oates 15 {'astro-ph.HE': 0.6, 'astro-ph.GA': 0.13333333333333333, 'astro-ph': 0.13333333333333333, 'astro-ph.CO': 0.13333333333333333}
+S. B. Pandey 15 {'astro-ph.HE': 0.4666666666666666, 'astro-ph': 0.39999999999999997, 'astro-ph.SR': 0.06666666666666667, 'astro-ph.IM': 0.06666666666666667}
+Yitong Li 15 {'cs.IT': 0.13333333333333333, 'cs.LG': 0.13333333333333333, 'cs.SI': 0.06666666666666667, 'cs.CL': 0.3333333333333333, 'eess.SP': 0.06666666666666667, 'stat.AP': 0.06666666666666667, 'eess.SY': 0.06666666666666667, 'stat.ML': 0.06666666666666667, 'cs.IR': 0.06666666666666667}
+K. Bechtol 15 {'astro-ph.IM': 0.39999999999999997, 'astro-ph.HE': 0.26666666666666666, 'astro-ph.GA': 0.26666666666666666, 'physics.ed-ph': 0.06666666666666667}
+M. Carrasco Kind 15 {'astro-ph.CO': 0.3333333333333333, 'astro-ph.IM': 0.39999999999999997, 'astro-ph.GA': 0.2, 'astro-ph.HE': 0.06666666666666667}
+ The LIGO Scientific Collaboration 15 {'astro-ph': 0.06666666666666667, 'gr-qc': 0.7999999999999999, 'quant-ph': 0.13333333333333333}
+Laurent Fargues 13 {'math.NT': 0.6153846153846154, 'math.AG': 0.3076923076923077, 'math.RT': 0.07692307692307693}
+Peter Scholze 15 {'math.AG': 0.7999999999999999, 'math.NT': 0.2}
+M. Napsuciale 15 {'hep-ph': 0.8666666666666666, 'hep-th': 0.06666666666666667, 'physics.hist-ph': 0.06666666666666667}
+Bernard Nienhuis 15 {'cond-mat.stat-mech': 0.5333333333333333, 'hep-th': 0.26666666666666666, 'math-ph': 0.13333333333333333, 'cond-mat': 0.06666666666666667}
+ LHCb collaboration 15 {'hep-ex': 0.8666666666666666, 'physics.ins-det': 0.13333333333333333}
+R. Aaij 15 {'hep-ex': 0.6666666666666666, 'physics.ins-det': 0.3333333333333333}
+Daniel Bump 15 {'math-ph': 0.13333333333333333, 'math.RT': 0.6, 'math.CO': 0.13333333333333333, 'math.PR': 0.13333333333333333}
+Leo Tsukada 12 {'astro-ph.HE': 0.3333333333333333, 'astro-ph.IM': 0.41666666666666663, 'gr-qc': 0.25}
+Richard Brito 15 {'gr-qc': 0.8666666666666666, 'hep-th': 0.13333333333333333}
+William E. East 15 {'gr-qc': 0.6, 'astro-ph': 0.06666666666666667, 'astro-ph.HE': 0.26666666666666666, 'astro-ph.CO': 0.06666666666666667}
+Alex Townsend 15 {'math.NA': 0.8666666666666666, 'cs.IT': 0.06666666666666667, 'cs.LG': 0.06666666666666667}
+G. Fanizza 10 {'gr-qc': 0.5, 'astro-ph.CO': 0.5}
+M. Gasperini 15 {'astro-ph': 0.26666666666666666, 'gr-qc': 0.7333333333333333}
+Salvatore Plumari 15 {'hep-ph': 0.26666666666666666, 'nucl-th': 0.7333333333333333}
+Vincenzo Greco 15 {'nucl-th': 0.7333333333333333, 'hep-ph': 0.26666666666666666}
+Daniele Tommasini 15 {'hep-th': 0.13333333333333333, 'quant-ph': 0.3333333333333333, 'astro-ph.IM': 0.06666666666666667, 'hep-ph': 0.26666666666666666, 'physics.optics': 0.06666666666666667, 'nlin.PS': 0.13333333333333333}
+ : 15 {'quant-ph': 0.26666666666666666, 'physics.hist-ph': 0.06666666666666667, 'q-bio.PE': 0.06666666666666667, 'physics.gen-ph': 0.13333333333333333, 'astro-ph': 0.06666666666666667, 'math.HO': 0.06666666666666667, 'math.GM': 0.13333333333333333, 'physics.soc-ph': 0.06666666666666667, 'cs.AI': 0.06666666666666667, 'hep-ph': 0.06666666666666667}
+A. V. Tsiganov 15 {'nlin.SI': 0.7333333333333333, 'solv-int': 0.26666666666666666}
+N. Amapane 14 {'physics.ins-det': 0.5714285714285713, 'hep-ex': 0.14285714285714285, 'physics.acc-ph': 0.07142857142857142, 'hep-ph': 0.21428571428571427}
+M. Antonelli 15 {'hep-ex': 0.4666666666666666, 'hep-ph': 0.2, 'physics.ao-ph': 0.06666666666666667, 'physics.acc-ph': 0.13333333333333333, 'astro-ph.HE': 0.06666666666666667, 'physics.ins-det': 0.06666666666666667}
+F. Anulli 15 {'hep-ex': 0.6666666666666666, 'hep-ph': 0.13333333333333333, 'physics.ins-det': 0.13333333333333333, 'physics.acc-ph': 0.06666666666666667}
+K. Hayasaka 15 {'hep-ex': 0.7333333333333333, 'hep-th': 0.13333333333333333, 'hep-ph': 0.06666666666666667, 'quant-ph': 0.06666666666666667}
+K. Inami 15 {'hep-ex': 0.7333333333333333, 'physics.ins-det': 0.26666666666666666}
+Sanghyuk Lee 15 {'math.CA': 0.6666666666666666, 'math.AP': 0.3333333333333333}
+Ihyeok Seo 15 {'math.AP': 0.9333333333333332, 'math.SP': 0.06666666666666667}
+Beom Jun Kim 15 {'cond-mat.supr-con': 0.6666666666666666, 'cond-mat.dis-nn': 0.26666666666666666, 'q-bio.NC': 0.06666666666666667}
+Anuradha M. Annaswamy 15 {'eess.SY': 0.13333333333333333, 'cs.LG': 0.13333333333333333, 'math.OC': 0.4666666666666666, 'cs.SY': 0.2, 'cs.CY': 0.06666666666666667}
+J. R. King 15 {'astro-ph.SR': 0.26666666666666666, 'math.AP': 0.13333333333333333, 'math-ph': 0.06666666666666667, 'physics.comp-ph': 0.13333333333333333, 'physics.plasm-ph': 0.2, 'astro-ph': 0.2}
+J. Takahashi 15 {'hep-ex': 0.06666666666666667, 'cond-mat.quant-gas': 0.13333333333333333, 'nucl-th': 0.2, 'hep-ph': 0.06666666666666667, 'nucl-ex': 0.06666666666666667, 'physics.atom-ph': 0.13333333333333333, 'math.AP': 0.06666666666666667, 'cond-mat.dis-nn': 0.06666666666666667, 'physics.optics': 0.06666666666666667, 'physics.plasm-ph': 0.06666666666666667, 'astro-ph': 0.06666666666666667}
+Luis A. Anchordoqui 15 {'astro-ph': 0.2, 'gr-qc': 0.13333333333333333, 'hep-ph': 0.26666666666666666, 'physics.ed-ph': 0.06666666666666667, 'astro-ph.CO': 0.06666666666666667, 'physics.pop-ph': 0.13333333333333333, 'astro-ph.HE': 0.13333333333333333}
+B. Pindor 15 {'astro-ph': 0.2, 'astro-ph.CO': 0.3333333333333333, 'astro-ph.IM': 0.39999999999999997, 'astro-ph.GA': 0.06666666666666667}
+J. L. B. Line 10 {'astro-ph.CO': 0.4, 'astro-ph.IM': 0.5, 'astro-ph.GA': 0.1}
+Aristotelis Panagiotopoulos 14 {'math.LO': 0.9285714285714283, 'math.AT': 0.07142857142857142}
+A. G. Panin 15 {'quant-ph': 0.26666666666666666, 'astro-ph.CO': 0.3333333333333333, 'hep-th': 0.13333333333333333, 'astro-ph.IM': 0.06666666666666667, 'nlin.CD': 0.06666666666666667, 'hep-ph': 0.06666666666666667, 'astro-ph.HE': 0.06666666666666667}
+Timothy D. Brandt 15 {'astro-ph.GA': 0.26666666666666666, 'astro-ph.SR': 0.3333333333333333, 'astro-ph.CO': 0.06666666666666667, 'astro-ph.EP': 0.13333333333333333, 'astro-ph.HE': 0.06666666666666667, 'astro-ph.IM': 0.13333333333333333}
+Trent J. Dupuy 15 {'astro-ph.SR': 0.7999999999999999, 'astro-ph': 0.13333333333333333, 'astro-ph.EP': 0.06666666666666667}
+Christophe De Wagter 11 {'cs.RO': 0.9090909090909093, 'physics.bio-ph': 0.09090909090909091}
+Guido C. H. E. de Croon 15 {'cs.CV': 0.26666666666666666, 'cs.RO': 0.7333333333333333}
+Desika Narayanan 15 {'astro-ph.CO': 0.39999999999999997, 'astro-ph.GA': 0.5333333333333333, 'astro-ph': 0.06666666666666667}
+Katherine E. Whitaker 15 {'astro-ph': 0.06666666666666667, 'astro-ph.CO': 0.5333333333333333, 'astro-ph.GA': 0.39999999999999997}
+Song Han 15 {'cs.CV': 0.39999999999999997, 'stat.ML': 0.06666666666666667, 'physics.comp-ph': 0.06666666666666667, 'cs.LG': 0.26666666666666666, 'cs.CL': 0.06666666666666667, 'cs.AR': 0.06666666666666667, 'cs.CR': 0.06666666666666667}
+Daniel B. Seaton 15 {'astro-ph.SR': 0.9333333333333332, 'astro-ph': 0.06666666666666667}
+F. Grippa 10 {'cs.SE': 0.1, 'physics.soc-ph': 0.1, 'econ.GN': 0.1, 'cs.CL': 0.1, 'cs.SI': 0.6}
+A. Booth 15 {'astro-ph.HE': 0.06666666666666667, 'astro-ph.EP': 0.6666666666666666, 'astro-ph.SR': 0.2, 'physics.atom-ph': 0.06666666666666667}
+Chris A. Hooley 13 {'cond-mat.str-el': 0.23076923076923078, 'cond-mat.quant-gas': 0.23076923076923078, 'cond-mat.supr-con': 0.07692307692307693, 'cond-mat.stat-mech': 0.15384615384615385, 'hep-th': 0.07692307692307693, 'gr-qc': 0.23076923076923078}
+Keith Horne 15 {'astro-ph': 0.7999999999999999, 'astro-ph.GA': 0.13333333333333333, 'astro-ph.EP': 0.06666666666666667}
+Licia Verde 15 {'astro-ph': 0.39999999999999997, 'astro-ph.CO': 0.6}
+Raul Jimenez 15 {'astro-ph': 0.5333333333333333, 'stat.ME': 0.06666666666666667, 'astro-ph.CO': 0.13333333333333333, 'stat.AP': 0.06666666666666667, 'astro-ph.HE': 0.13333333333333333, 'math.ST': 0.06666666666666667}
+I. S. Timchenko 10 {'nucl-ex': 0.8999999999999999, 'nucl-th': 0.1}
+Zachary A. H. Goodwin 14 {'cond-mat.stat-mech': 0.07142857142857142, 'cond-mat.str-el': 0.2857142857142857, 'cond-mat.mes-hall': 0.14285714285714285, 'cond-mat.soft': 0.14285714285714285, 'physics.chem-ph': 0.21428571428571427, 'cond-mat.mtrl-sci': 0.07142857142857142, 'cond-mat.supr-con': 0.07142857142857142}
+A. Fronzetti Colladon 15 {'cs.SI': 0.39999999999999997, 'cs.CL': 0.2, 'cs.SE': 0.06666666666666667, 'physics.soc-ph': 0.13333333333333333, 'q-fin.GN': 0.06666666666666667, 'econ.GN': 0.06666666666666667, 'econ.EM': 0.06666666666666667}
+Prateek Sharma 15 {'astro-ph': 0.3333333333333333, 'astro-ph.CO': 0.13333333333333333, 'astro-ph.HE': 0.2, 'astro-ph.GA': 0.3333333333333333}
+Hemwati Nandan 15 {'nucl-th': 0.06666666666666667, 'gr-qc': 0.6666666666666666, 'hep-ph': 0.13333333333333333, 'physics.class-ph': 0.13333333333333333}
+Kay Schwieger 13 {'math.OA': 0.5384615384615385, 'cond-mat.stat-mech': 0.15384615384615385, 'cond-mat.mes-hall': 0.07692307692307693, 'quant-ph': 0.15384615384615385, 'physics.hist-ph': 0.07692307692307693}
+Osame Kinouchi 15 {'cond-mat.dis-nn': 0.5333333333333333, 'physics.pop-ph': 0.06666666666666667, 'physics.gen-ph': 0.06666666666666667, 'q-bio.NC': 0.2, 'physics.hist-ph': 0.06666666666666667, 'cond-mat.stat-mech': 0.06666666666666667}
+Amr S. Helmy 15 {'quant-ph': 0.39999999999999997, 'physics.optics': 0.39999999999999997, 'physics.app-ph': 0.06666666666666667, 'eess.SP': 0.06666666666666667, 'cond-mat.mes-hall': 0.06666666666666667}
+Eleonora Di Valentino 15 {'physics.pop-ph': 0.06666666666666667, 'astro-ph.CO': 0.9333333333333332}
+Alessandro Melchiorri 15 {'astro-ph': 0.7333333333333333, 'hep-ph': 0.2, 'gr-qc': 0.06666666666666667}
+V. E. Panchuk 15 {'astro-ph': 0.3333333333333333, 'astro-ph.SR': 0.6666666666666666}
+V. G. Klochkova 15 {'astro-ph.SR': 0.7333333333333333, 'astro-ph': 0.26666666666666666}
+Nelson Christensen 15 {'gr-qc': 0.5333333333333333, 'astro-ph': 0.13333333333333333, 'quant-ph': 0.06666666666666667, 'stat.ME': 0.06666666666666667, 'astro-ph.IM': 0.13333333333333333, 'physics.data-an': 0.06666666666666667}
+Renate Meyer 15 {'astro-ph': 0.13333333333333333, 'gr-qc': 0.5333333333333333, 'stat.ME': 0.2, 'physics.data-an': 0.06666666666666667, 'stat.CO': 0.06666666666666667}
+Esther E. Bron 10 {'cs.LG': 0.30000000000000004, 'cs.CV': 0.2, 'eess.IV': 0.2, 'q-bio.PE': 0.30000000000000004}
+Stefan Klein 15 {'cs.CV': 0.3333333333333333, 'cs.LG': 0.2, 'eess.IV': 0.26666666666666666, 'eess.SP': 0.2}
+Thomas H. Geisser 13 {'math.NT': 0.6153846153846154, 'math.KT': 0.15384615384615385, 'math.AG': 0.23076923076923078}
+Takashi Suzuki 15 {'hep-th': 0.4666666666666666, 'math.NT': 0.39999999999999997, 'math.AP': 0.13333333333333333}
+Wanchun Liu 15 {'cs.IT': 0.9999999999999999}
+Daniel E. Quevedo 15 {'cs.SY': 0.4666666666666666, 'cs.IT': 0.13333333333333333, 'math.OC': 0.3333333333333333, 'math.DS': 0.06666666666666667}
+E. I. Shneyder 11 {'cond-mat.supr-con': 0.18181818181818182, 'cond-mat.str-el': 0.8181818181818183}
+M. Caleb 15 {'astro-ph.HE': 0.9333333333333332, 'astro-ph.IM': 0.06666666666666667}
+B. W. Stappers 15 {'astro-ph': 0.9333333333333332, 'astro-ph.SR': 0.06666666666666667}
+Junji Jia 15 {'math.OC': 0.13333333333333333, 'hep-th': 0.06666666666666667, 'hep-ph': 0.13333333333333333, 'gr-qc': 0.5333333333333333, 'astro-ph': 0.06666666666666667, 'quant-ph': 0.06666666666666667}
+M. Wagenpfeil 15 {'physics.ins-det': 0.5333333333333333, 'hep-ex': 0.26666666666666666, 'nucl-ex': 0.13333333333333333, 'astro-ph.IM': 0.06666666666666667}
+T. Ziegler 15 {'physics.chem-ph': 0.06666666666666667, 'physics.plasm-ph': 0.06666666666666667, 'physics.ins-det': 0.2, 'gr-qc': 0.13333333333333333, 'astro-ph.IM': 0.06666666666666667, 'hep-ex': 0.26666666666666666, 'astro-ph.EP': 0.06666666666666667, 'nucl-ex': 0.13333333333333333}
+J. Schneider 15 {'astro-ph': 0.26666666666666666, 'cond-mat.stat-mech': 0.06666666666666667, 'math.QA': 0.5333333333333333, 'astro-ph.EP': 0.13333333333333333}
+L. Mahy 15 {'astro-ph.SR': 0.9999999999999999}
+Daichi Hiramatsu 15 {'astro-ph.HE': 0.8666666666666666, 'astro-ph.GA': 0.06666666666666667, 'astro-ph.SR': 0.06666666666666667}
+D. Andrew Howell 15 {'astro-ph': 0.5333333333333333, 'astro-ph.CO': 0.2, 'astro-ph.HE': 0.26666666666666666}
+Takashi J. Moriya 15 {'astro-ph.HE': 0.6666666666666666, 'astro-ph.SR': 0.26666666666666666, 'astro-ph.CO': 0.06666666666666667}
+Eduardo Peinado 15 {'hep-ph': 0.9999999999999999}
+L. Zhang 15 {'cond-mat.mtrl-sci': 0.06666666666666667, 'hep-ex': 0.06666666666666667, 'astro-ph.HE': 0.13333333333333333, 'quant-ph': 0.06666666666666667, 'astro-ph': 0.06666666666666667, 'cond-mat': 0.06666666666666667, 'cs.AI': 0.39999999999999997, 'astro-ph.SR': 0.06666666666666667, 'cond-mat.mes-hall': 0.06666666666666667}
+D. Altamirano 15 {'astro-ph': 0.39999999999999997, 'astro-ph.HE': 0.6}
+P. Uttley 15 {'astro-ph': 0.7333333333333333, 'astro-ph.HE': 0.13333333333333333, 'astro-ph.GA': 0.06666666666666667, 'astro-ph.CO': 0.06666666666666667}
+Zachary G. Nicolaou 10 {'cond-mat.mtrl-sci': 0.1, 'cond-mat.stat-mech': 0.1, 'cond-mat.dis-nn': 0.2, 'nlin.PS': 0.2, 'nlin.AO': 0.30000000000000004, 'cond-mat.quant-gas': 0.1}
+Michael Sebek 11 {'math.OC': 0.09090909090909091, 'cs.SY': 0.5454545454545455, 'cond-mat.dis-nn': 0.09090909090909091, 'nlin.AO': 0.2727272727272727}
+Istvan Z. Kiss 15 {'math.DS': 0.2, 'q-bio.PE': 0.13333333333333333, 'physics.soc-ph': 0.13333333333333333, 'q-bio.QM': 0.13333333333333333, 'math.PR': 0.06666666666666667, 'cond-mat.dis-nn': 0.06666666666666667, 'math.CA': 0.06666666666666667, 'nlin.AO': 0.06666666666666667, 'cs.SI': 0.06666666666666667, 'nlin.CD': 0.06666666666666667}
+Mehran Kianinia 15 {'physics.app-ph': 0.26666666666666666, 'physics.optics': 0.26666666666666666, 'quant-ph': 0.2, 'cond-mat.other': 0.06666666666666667, 'cond-mat.mtrl-sci': 0.13333333333333333, 'cond-mat.mes-hall': 0.06666666666666667}
+G. Terreran 15 {'astro-ph.GA': 0.2, 'astro-ph.SR': 0.3333333333333333, 'astro-ph.HE': 0.39999999999999997, 'astro-ph.CO': 0.06666666666666667}
+J. H. Groh 15 {'astro-ph.SR': 0.39999999999999997, 'astro-ph.EP': 0.06666666666666667, 'astro-ph': 0.39999999999999997, 'astro-ph.GA': 0.13333333333333333}
+David A. Stephens 15 {'math.ST': 0.2, 'cs.LG': 0.06666666666666667, 'math.OC': 0.06666666666666667, 'stat.CO': 0.06666666666666667, 'stat.ME': 0.5333333333333333, 'stat.AP': 0.06666666666666667}
+Nick Brettell 15 {'cs.DM': 0.06666666666666667, 'math.CO': 0.4666666666666666, 'cs.DS': 0.4666666666666666}
+K. Jahoda 15 {'astro-ph': 0.8666666666666666, 'physics.ins-det': 0.06666666666666667, 'astro-ph.IM': 0.06666666666666667}
+L. Angelini 15 {'astro-ph': 0.39999999999999997, 'cond-mat.stat-mech': 0.2, 'cond-mat.dis-nn': 0.06666666666666667, 'hep-ph': 0.13333333333333333, 'astro-ph.HE': 0.06666666666666667, 'physics.med-ph': 0.06666666666666667, 'q-bio.QM': 0.06666666666666667}
+M. Battaglieri 15 {'hep-ph': 0.13333333333333333, 'hep-ex': 0.6, 'nucl-th': 0.06666666666666667, 'nucl-ex': 0.13333333333333333, 'physics.ins-det': 0.06666666666666667}
+A. Bianconi 15 {'nucl-th': 0.4666666666666666, 'hep-ph': 0.3333333333333333, 'cond-mat.supr-con': 0.2}
+S. Teknowijoyo 11 {'cond-mat.supr-con': 1.0000000000000002}
+K. Cho 15 {'math.AG': 0.06666666666666667, 'cond-mat.mtrl-sci': 0.13333333333333333, 'cond-mat.mes-hall': 0.13333333333333333, 'cond-mat.supr-con': 0.39999999999999997, 'physics.app-ph': 0.06666666666666667, 'cs.RO': 0.06666666666666667, 'cs.CV': 0.06666666666666667, 'cond-mat.str-el': 0.06666666666666667}
+Ahmad Borzou 14 {'gr-qc': 0.4285714285714285, 'physics.gen-ph': 0.14285714285714285, 'astro-ph.GA': 0.07142857142857142, 'astro-ph.CO': 0.14285714285714285, 'hep-th': 0.14285714285714285, 'cond-mat.soft': 0.07142857142857142}
+Alison E. Patteson 11 {'cond-mat.soft': 0.09090909090909091, 'physics.bio-ph': 0.6363636363636365, 'physics.flu-dyn': 0.18181818181818182, 'q-bio.SC': 0.09090909090909091}
+J. M. Schwarz 15 {'cond-mat.stat-mech': 0.13333333333333333, 'cond-mat.dis-nn': 0.6, 'math-ph': 0.06666666666666667, 'cond-mat': 0.06666666666666667, 'cond-mat.soft': 0.06666666666666667, 'q-bio.SC': 0.06666666666666667}
+A. Gallenne 15 {'astro-ph.SR': 0.9999999999999999}
+P. Kervella 15 {'astro-ph.SR': 0.39999999999999997, 'astro-ph': 0.6}
+Lilia Anguelova 15 {'hep-th': 0.9999999999999999}
+Dmitri E. Kharzeev 15 {'hep-ph': 0.7333333333333333, 'hep-th': 0.2, 'cond-mat.mes-hall': 0.06666666666666667}
+Alexander G. Abanov 15 {'cond-mat.str-el': 0.6, 'hep-th': 0.06666666666666667, 'math-ph': 0.06666666666666667, 'nlin.SI': 0.06666666666666667, 'cond-mat.mes-hall': 0.13333333333333333, 'cond-mat.quant-gas': 0.06666666666666667}
+T. Yu. Golubeva 15 {'quant-ph': 0.9999999999999999}
+Yu. M. Golubev 15 {'quant-ph': 0.9333333333333332, 'cond-mat.stat-mech': 0.06666666666666667}
+Nicholas S. Kern 15 {'astro-ph.CO': 0.26666666666666666, 'astro-ph.IM': 0.7333333333333333}
+L. Ilsedore Cleeves 15 {'astro-ph.SR': 0.5333333333333333, 'astro-ph.EP': 0.39999999999999997, 'astro-ph.GA': 0.06666666666666667}
+Michel Habib 15 {'cs.DS': 0.4666666666666666, 'q-bio.PE': 0.2, 'cs.DM': 0.26666666666666666, 'cs.CC': 0.06666666666666667}
+A. Boucaud 11 {'astro-ph.GA': 0.36363636363636365, 'astro-ph.CO': 0.6363636363636365}
+F. Borsa 15 {'astro-ph.EP': 0.13333333333333333, 'cond-mat.mtrl-sci': 0.2, 'cond-mat.supr-con': 0.13333333333333333, 'cond-mat.mes-hall': 0.26666666666666666, 'cond-mat.str-el': 0.26666666666666666}
+A. F. Lanza 15 {'astro-ph': 0.13333333333333333, 'astro-ph.SR': 0.4666666666666666, 'astro-ph.EP': 0.39999999999999997}
+Krzysztof Malarz 15 {'cond-mat.stat-mech': 0.13333333333333333, 'q-bio.PE': 0.06666666666666667, 'physics.soc-ph': 0.7333333333333333, 'math-ph': 0.06666666666666667}
+Rhine Samajdar 15 {'nlin.SI': 0.06666666666666667, 'quant-ph': 0.2, 'math-ph': 0.06666666666666667, 'cond-mat.str-el': 0.4666666666666666, 'cond-mat.supr-con': 0.13333333333333333, 'cond-mat.quant-gas': 0.06666666666666667}
+Mathias S. Scheurer 15 {'cond-mat.supr-con': 0.4666666666666666, 'cond-mat.mes-hall': 0.13333333333333333, 'cond-mat.stat-mech': 0.06666666666666667, 'cond-mat.str-el': 0.26666666666666666, 'cond-mat.quant-gas': 0.06666666666666667}
+Wissam Chemissany 15 {'hep-th': 0.7999999999999999, 'quant-ph': 0.13333333333333333, 'cs.LG': 0.06666666666666667}
+Paolo Mazzali 15 {'astro-ph.HE': 0.4666666666666666, 'astro-ph.CO': 0.06666666666666667, 'physics.pop-ph': 0.06666666666666667, 'astro-ph': 0.26666666666666666, 'astro-ph.SR': 0.13333333333333333}
+Christoph A. Haselwandter 14 {'cond-mat.soft': 0.14285714285714285, 'q-bio.BM': 0.3571428571428571, 'q-bio.SC': 0.14285714285714285, 'physics.bio-ph': 0.2857142857142857, 'q-bio.NC': 0.07142857142857142}
+F. Arnold 15 {'physics.ed-ph': 0.06666666666666667, 'astro-ph': 0.06666666666666667, 'cond-mat.str-el': 0.39999999999999997, 'cs.MM': 0.06666666666666667, 'cond-mat.mtrl-sci': 0.13333333333333333, 'stat.AP': 0.06666666666666667, 'stat.ME': 0.2}
+J. Menezes 15 {'hep-ph': 0.13333333333333333, 'q-bio.PE': 0.2, 'cond-mat.other': 0.06666666666666667, 'hep-th': 0.2, 'physics.bio-ph': 0.06666666666666667, 'astro-ph': 0.13333333333333333, 'gr-qc': 0.06666666666666667, 'nlin.AO': 0.06666666666666667, 'nlin.PS': 0.06666666666666667}
+Christian Bender 15 {'q-fin.PR': 0.3333333333333333, 'math.PR': 0.4666666666666666, 'math.ST': 0.13333333333333333, 'q-fin.CP': 0.06666666666666667}
+L. McCuller 15 {'astro-ph.IM': 0.4666666666666666, 'quant-ph': 0.13333333333333333, 'physics.ins-det': 0.13333333333333333, 'gr-qc': 0.2, 'astro-ph.HE': 0.06666666666666667}
+S. E. Dwyer 15 {'astro-ph.IM': 0.5333333333333333, 'physics.optics': 0.06666666666666667, 'quant-ph': 0.06666666666666667, 'physics.ins-det': 0.13333333333333333, 'gr-qc': 0.2}
+A. C. Green 15 {'gr-qc': 0.3333333333333333, 'astro-ph.IM': 0.3333333333333333, 'physics.ed-ph': 0.06666666666666667, 'quant-ph': 0.13333333333333333, 'physics.ins-det': 0.13333333333333333}
+Alexandru Dimca 15 {'math.AG': 0.9999999999999999}
+Gabriel Sticlaru 15 {'math.AG': 0.9999999999999999}
+A. P. Serebrov 15 {'nucl-ex': 0.7999999999999999, 'hep-ex': 0.13333333333333333, 'cond-mat.other': 0.06666666666666667}
+Paul Brumer 15 {'nlin.CD': 0.06666666666666667, 'quant-ph': 0.9333333333333332}
+Muhammad Akram 11 {'cond-mat.str-el': 0.18181818181818182, 'cs.DM': 0.09090909090909091, 'cs.CR': 0.09090909090909091, 'cs.OH': 0.09090909090909091, 'physics.ins-det': 0.2727272727272727, 'hep-ex': 0.2727272727272727}
+Dibyendu Dey 15 {'cond-mat.str-el': 0.26666666666666666, 'cond-mat.mtrl-sci': 0.6666666666666666, 'physics.bio-ph': 0.06666666666666667}
+Kristen B. W. McQuinn 15 {'astro-ph.GA': 0.7333333333333333, 'astro-ph.CO': 0.26666666666666666}
+P. Wiseman 15 {'astro-ph.GA': 0.26666666666666666, 'astro-ph.CO': 0.06666666666666667, 'astro-ph.HE': 0.5333333333333333, 'astro-ph.SR': 0.13333333333333333}
+M. Sullivan 15 {'hep-ph': 0.13333333333333333, 'math.GT': 0.39999999999999997, 'cond-mat.mtrl-sci': 0.2, 'math.DG': 0.06666666666666667, 'cs.CG': 0.06666666666666667, 'dg-ga': 0.06666666666666667, 'math.MG': 0.06666666666666667}
+M. Smith 15 {'astro-ph': 0.26666666666666666, 'math.GR': 0.39999999999999997, 'astro-ph.IM': 0.06666666666666667, 'math.DG': 0.06666666666666667, 'cs.SI': 0.06666666666666667, 'physics.soc-ph': 0.06666666666666667, 'cs.CR': 0.06666666666666667}
+Tim Mitchell 12 {'math.OC': 0.75, 'math.NA': 0.16666666666666666, 'cs.SY': 0.08333333333333333}
+V. E. Colussi 15 {'cond-mat.quant-gas': 0.5333333333333333, 'physics.atom-ph': 0.2, 'quant-ph': 0.26666666666666666}
+N. A. Usov 15 {'cond-mat.mes-hall': 0.7999999999999999, 'cond-mat.mtrl-sci': 0.13333333333333333, 'physics.app-ph': 0.06666666666666667}
+Jie Wang 15 {'math.AG': 0.3333333333333333, 'math.AC': 0.26666666666666666, 'math.CO': 0.13333333333333333, 'math.RA': 0.06666666666666667, 'cond-mat.mes-hall': 0.06666666666666667, 'stat.ML': 0.06666666666666667, 'math.DG': 0.06666666666666667}
+Jennifer Cano 15 {'cond-mat.str-el': 0.5333333333333333, 'cond-mat.mes-hall': 0.4666666666666666}
+K. Dulski 15 {'physics.ins-det': 0.7333333333333333, 'nucl-ex': 0.06666666666666667, 'physics.med-ph': 0.2}
+S. D. Bass 15 {'hep-ph': 0.9333333333333332, 'nucl-th': 0.06666666666666667}
+L. V. Gerasimov 10 {'quant-ph': 0.8999999999999999, 'physics.atom-ph': 0.1}
+J. Pomoell 12 {'astro-ph': 0.08333333333333333, 'astro-ph.SR': 0.75, 'physics.space-ph': 0.16666666666666666}
+Bob Rink 15 {'nlin.CD': 0.06666666666666667, 'nlin.SI': 0.13333333333333333, 'math.DS': 0.7999999999999999}
+Martin Wechselberger 12 {'math.DS': 1.0}
+J. R. Maund 15 {'astro-ph.SR': 0.6, 'astro-ph': 0.39999999999999997}
+Roman Kontchakov 13 {'cs.LO': 0.7692307692307692, 'cs.DB': 0.23076923076923078}
+Peter Neal 15 {'math.PR': 0.3333333333333333, 'stat.CO': 0.2, 'q-bio.PE': 0.2, 'q-bio.NC': 0.2, 'stat.ME': 0.06666666666666667}
+K. Heijhoff 15 {'physics.ins-det': 0.39999999999999997, 'hep-ex': 0.6}
+K. Akiba 15 {'physics.ins-det': 0.3333333333333333, 'cond-mat.mes-hall': 0.3333333333333333, 'quant-ph': 0.2, 'cond-mat.str-el': 0.06666666666666667, 'cond-mat.mtrl-sci': 0.06666666666666667}
+R. Bates 12 {'math.CV': 0.08333333333333333, 'hep-ex': 0.16666666666666666, 'cs.CL': 0.16666666666666666, 'physics.ins-det': 0.49999999999999994, 'physics.acc-ph': 0.08333333333333333}
+Sudhanwa Patra 15 {'hep-ph': 0.9999999999999999}
+Prativa Pritimita 11 {'hep-ph': 1.0000000000000002}
+Thomas E. Woolley 14 {'math.AP': 0.07142857142857142, 'math-ph': 0.07142857142857142, 'physics.class-ph': 0.2857142857142857, 'cond-mat.mtrl-sci': 0.07142857142857142, 'q-bio.MN': 0.07142857142857142, 'cond-mat.soft': 0.14285714285714285, 'q-bio.QM': 0.07142857142857142, 'nlin.PS': 0.14285714285714285, 'physics.bio-ph': 0.07142857142857142}
+L. Roca 15 {'nucl-th': 0.26666666666666666, 'hep-ph': 0.6666666666666666, 'hep-lat': 0.06666666666666667}
+W. H. Liang 13 {'hep-ph': 0.9999999999999998}
+E. Oset 15 {'nucl-th': 0.7333333333333333, 'hep-lat': 0.06666666666666667, 'hep-ph': 0.2}
+Mingyang Guo 15 {'math.CO': 0.13333333333333333, 'cond-mat.quant-gas': 0.6666666666666666, 'physics.atom-ph': 0.2}
+Hongliang Lu 15 {'math.CO': 0.9999999999999999}
+E. Garrido 15 {'nucl-th': 0.6666666666666666, 'physics.atom-ph': 0.06666666666666667, 'physics.atm-clus': 0.13333333333333333, 'cond-mat.quant-gas': 0.06666666666666667, 'quant-ph': 0.06666666666666667}
+A. S. Jensen 15 {'nucl-th': 0.26666666666666666, 'physics.atm-clus': 0.13333333333333333, 'cond-mat.quant-gas': 0.06666666666666667, 'quant-ph': 0.06666666666666667, 'cond-mat': 0.3333333333333333, 'cond-mat.soft': 0.06666666666666667, 'cond-mat.other': 0.06666666666666667}
+J. Johansson 15 {'cond-mat.mes-hall': 0.2, 'cs.CY': 0.06666666666666667, 'astro-ph.CO': 0.13333333333333333, 'physics.med-ph': 0.13333333333333333, 'eess.SY': 0.06666666666666667, 'cond-mat.supr-con': 0.2, 'physics.optics': 0.06666666666666667, 'physics.ins-det': 0.06666666666666667, 'astro-ph.HE': 0.06666666666666667}
+S. B. Cenko 15 {'astro-ph.HE': 0.5333333333333333, 'astro-ph': 0.2, 'astro-ph.IM': 0.06666666666666667, 'astro-ph.CO': 0.06666666666666667, 'astro-ph.SR': 0.13333333333333333}
+O. D. Fox 15 {'astro-ph.SR': 0.13333333333333333, 'astro-ph.HE': 0.7333333333333333, 'astro-ph.GA': 0.06666666666666667, 'astro-ph.IM': 0.06666666666666667}
+K. Zhao 15 {'math.RA': 0.06666666666666667, 'astro-ph.SR': 0.3333333333333333, 'cond-mat.mes-hall': 0.06666666666666667, 'cond-mat.mtrl-sci': 0.06666666666666667, 'physics.ao-ph': 0.06666666666666667, 'astro-ph.IM': 0.06666666666666667, 'cond-mat.str-el': 0.13333333333333333, 'cond-mat.dis-nn': 0.06666666666666667, 'cond-mat.supr-con': 0.06666666666666667, 'physics.acc-ph': 0.06666666666666667}
+Gersende Fort 15 {'math.PR': 0.39999999999999997, 'eess.SP': 0.06666666666666667, 'math.ST': 0.39999999999999997, 'math.OC': 0.06666666666666667, 'stat.CO': 0.06666666666666667}
+E Moulines 11 {'stat.ME': 0.09090909090909091, 'math.ST': 0.4545454545454546, 'eess.SP': 0.09090909090909091, 'math.PR': 0.09090909090909091, 'stat.CO': 0.09090909090909091, 'cs.LG': 0.18181818181818182}
+M. E. van den Ancker 15 {'astro-ph': 0.9999999999999999}
+N. P. Gentile Fusillo 15 {'astro-ph.SR': 0.9999999999999999}
+T. J. Haworth 14 {'astro-ph.SR': 0.5714285714285713, 'astro-ph.GA': 0.3571428571428571, 'astro-ph.EP': 0.07142857142857142}
+Ewa M. Bednarczuk 10 {'math.OC': 0.8999999999999999, 'math.CA': 0.1}
+J. Maldonado 15 {'astro-ph.SR': 0.3333333333333333, 'astro-ph.EP': 0.26666666666666666, 'gr-qc': 0.3333333333333333, 'quant-ph': 0.06666666666666667}
+A. Petralia 15 {'astro-ph.IM': 0.06666666666666667, 'astro-ph.SR': 0.5333333333333333, 'physics.acc-ph': 0.2, 'astro-ph.EP': 0.2}
+M. Damasso 15 {'astro-ph.EP': 0.7333333333333333, 'astro-ph.SR': 0.26666666666666666}
+Fengming Dong 15 {'math.CO': 0.9999999999999999}
+Yan Yang 15 {'math.CO': 0.4666666666666666, 'econ.GN': 0.06666666666666667, 'math.NA': 0.06666666666666667, 'cs.CV': 0.13333333333333333, 'math.CV': 0.06666666666666667, 'math.CA': 0.13333333333333333, 'cs.IT': 0.06666666666666667}
+Sebastian Meuren 11 {'hep-ph': 0.6363636363636365, 'physics.plasm-ph': 0.36363636363636365}
+David A. Reis 14 {'physics.optics': 0.3571428571428571, 'physics.atom-ph': 0.14285714285714285, 'cond-mat.mes-hall': 0.07142857142857142, 'cond-mat.mtrl-sci': 0.21428571428571427, 'physics.plasm-ph': 0.14285714285714285, 'physics.ins-det': 0.07142857142857142}
+Roger Blandford 15 {'astro-ph': 0.7999999999999999, 'astro-ph.HE': 0.2}
+Jonathan Hermon 15 {'math.PR': 0.9999999999999999}
+Dong Yao 11 {'math.PR': 0.4545454545454546, 'cond-mat.mtrl-sci': 0.09090909090909091, 'astro-ph.EP': 0.09090909090909091, 'cs.CV': 0.2727272727272727, 'cs.CR': 0.09090909090909091}
+Allison W. S. Man 13 {'astro-ph.CO': 0.23076923076923078, 'astro-ph.GA': 0.7692307692307692}
+Johannes Zabl 15 {'astro-ph.GA': 0.9333333333333332, 'astro-ph.CO': 0.06666666666666667}
+Pablo D. Mininni 15 {'physics.flu-dyn': 0.7333333333333333, 'physics.plasm-ph': 0.13333333333333333, 'astro-ph.CO': 0.06666666666666667, 'astro-ph.HE': 0.06666666666666667}
+A. Sleptsov 15 {'hep-th': 0.9999999999999999}
+A. E. Koshelev 15 {'cond-mat': 0.13333333333333333, 'cond-mat.supr-con': 0.7999999999999999, 'cond-mat.str-el': 0.06666666666666667}
+R. T. Wollaeger 10 {'astro-ph.HE': 0.9999999999999999}
+C. L. Fryer 15 {'astro-ph': 0.9333333333333332, 'astro-ph.HE': 0.06666666666666667}
+E. A. Chase 15 {'astro-ph.HE': 0.6666666666666666, 'gr-qc': 0.26666666666666666, 'astro-ph.CO': 0.06666666666666667}
+A. E. Gambrel 15 {'astro-ph.IM': 0.5333333333333333, 'astro-ph.CO': 0.39999999999999997, 'physics.ins-det': 0.06666666666666667}
+A. S. Rahlin 15 {'astro-ph.CO': 0.4666666666666666, 'astro-ph.IM': 0.5333333333333333}
+Andreas Otto 14 {'hep-ph': 0.3571428571428571, 'nlin.CD': 0.21428571428571427, 'eess.SP': 0.21428571428571427, 'nlin.AO': 0.14285714285714285, 'cond-mat.mes-hall': 0.07142857142857142}
+Marcelo E. Coniglio 12 {'math.LO': 0.9166666666666667, 'cs.LO': 0.08333333333333333}
+A. V. Olinto 15 {'astro-ph': 0.9333333333333332, 'astro-ph.HE': 0.06666666666666667}
+A. D. K. Finck 14 {'cond-mat.mes-hall': 0.7857142857142855, 'cond-mat.supr-con': 0.07142857142857142, 'cond-mat.str-el': 0.07142857142857142, 'quant-ph': 0.07142857142857142}
+L. Martina 15 {'cond-mat.mes-hall': 0.13333333333333333, 'hep-th': 0.5333333333333333, 'math.DG': 0.06666666666666667, 'nlin.SI': 0.13333333333333333, 'cond-mat.str-el': 0.06666666666666667, 'cond-mat.stat-mech': 0.06666666666666667}
+C. Naya 15 {'hep-th': 0.7999999999999999, 'nucl-th': 0.13333333333333333, 'cond-mat.soft': 0.06666666666666667}
+Mark Wardle 15 {'astro-ph': 0.7999999999999999, 'astro-ph.GA': 0.06666666666666667, 'astro-ph.SR': 0.13333333333333333}
+Andras Szabo 10 {'nucl-th': 0.1, 'cond-mat.mes-hall': 0.2, 'cond-mat.str-el': 0.4, 'q-bio.CB': 0.2, 'q-bio.PE': 0.1}
+Bitan Roy 15 {'cond-mat.mes-hall': 0.6666666666666666, 'cond-mat.str-el': 0.13333333333333333, 'cond-mat.dis-nn': 0.13333333333333333, 'cond-mat.supr-con': 0.06666666666666667}
+Renbin Yan 15 {'astro-ph.IM': 0.06666666666666667, 'astro-ph.GA': 0.5333333333333333, 'astro-ph': 0.26666666666666666, 'astro-ph.CO': 0.06666666666666667, 'astro-ph.SR': 0.06666666666666667}
+Matthew A. Bershady 15 {'astro-ph': 0.6666666666666666, 'astro-ph.IM': 0.06666666666666667, 'astro-ph.GA': 0.06666666666666667, 'astro-ph.CO': 0.2}
+Pablo Bueno 15 {'hep-th': 0.9333333333333332, 'cond-mat.str-el': 0.06666666666666667}
+Horacio Casini 15 {'hep-ph': 0.06666666666666667, 'hep-th': 0.9333333333333332}
+K. Nimmo 10 {'astro-ph.HE': 0.9999999999999999}
+J. W. T. Hessels 15 {'astro-ph.HE': 0.26666666666666666, 'astro-ph.SR': 0.13333333333333333, 'astro-ph': 0.39999999999999997, 'astro-ph.IM': 0.2}
+F. Kirsten 14 {'astro-ph.GA': 0.07142857142857142, 'astro-ph.IM': 0.14285714285714285, 'astro-ph.HE': 0.7857142857142855}
