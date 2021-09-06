@@ -1,0 +1,20 @@
+numpy>=1.16.5
+pandas>=1.0.0
+tqdm>=4.0.0
+scikit-learn>=0.18
+torchvision>=0.7.0
+lifelines>=0.22.8
+pycox>=0.2.2
+gbst >= 1.0.0
+
+
+
+sklearn~=0.0
+progressbar~=2.5
+numba~=0.53.0
+scipy~=1.6.1
+torchtuples~=0.2.0
+dill~=0.3.3
+requests~=2.25.1
+tensorflow~=2.3.0
+tensorflow-gpu~=2.3.0
