@@ -3,6 +3,7 @@
 datasets/.ipynb_checkpoints/GBST-checkpoint.ipynb
 datasets/.ipynb_checkpoints/load_M2-checkpoint.py
 models/.ipynb_checkpoints/DeepSurv-checkpoint.py
+datasets/*
 datasets/LendingClub/XYZCorp_LendingData.txt
 datasets/Paipaidai/LC.csv
 datasets/Paipaidai/LP.csv
