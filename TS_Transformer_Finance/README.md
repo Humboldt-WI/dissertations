@@ -57,6 +57,6 @@ Findings and interpretaions from the experiment are included in the thesis paper
 ![plot 2](/analysis/1_monkey_SP500_distribution_p_return.png)
 Transformer-based trading (green) showed significantl better returns than simple market long (orange, incl. 1 and 99 percentiles) or random long-short positions (blue, incl. 1 and 99 percentiles). 
 
-![plot 1](/analysis/1_9_11_cum_profit.png)
+![plot 1](/TS_Transformer_Finance/analysis/1_9_11_cum_profit.png)
 However, overall the transformer model was not ale to outperform the LSTM-reference.
 
