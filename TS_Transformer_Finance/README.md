@@ -54,7 +54,7 @@ The *EID* - is the identifier for an experiment run. Choose a unique EID per exp
 #### Experiment Results
 Findings and interpretaions from the experiment are included in the thesis paper. The raw experiment data is equally provided in the experiment directory and can be used as input to the analysis and plotting modules.
 
-![plot 2](/analysis/1_monkey_SP500_distribution_p_return.png)
+![plot 2](/TS_Transformer_Finance/analysis/1_monkey_SP500_distribution_p_return.png)
 Transformer-based trading (green) showed significantl better returns than simple market long (orange, incl. 1 and 99 percentiles) or random long-short positions (blue, incl. 1 and 99 percentiles). 
 
 ![plot 1](/TS_Transformer_Finance/analysis/1_9_11_cum_profit.png)
