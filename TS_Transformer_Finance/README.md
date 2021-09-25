@@ -52,7 +52,7 @@ Paramter descriptions and available or standard values used in the paper (def.) 
 The *EID* - is the identifier for an experiment run. Choose a unique EID per experiment run to not overwrite previous results. To load experiment results in the subsequent analysis or plotting modules insert the respective EID (or EIDs).
 
 #### Dataset
-Licence requirements prevent the dataset used in the experiments to be uploaded. The provided dataset consists of synthesised prices based on real prices that underwent a series of randomized transformations. Results will therefore vary from the examples provided. To obtain the real dataset, a consituent list including EIKON identifier codes for replication it directly is provided in the accompanying paper.  
+Licence requirements prevent the dataset used in the experiments to be uploaded. The provided dataset consists of synthesised prices based on real prices that underwent a series of randomized transformations. It is of purely exemplary nature and obtained results will therefore vary from the examples provided. To obtain the real dataset, a consituent list including EIKON identifier codes for replication it directly is provided in the accompanying paper.  
 
 #### Experiment Results
 Detailed findings and interpretaions from the experiment are included in the thesis paper. The raw experiment data is equally provided in the experiment directory and can be used as input to the analysis and plotting modules.
