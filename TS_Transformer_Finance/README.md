@@ -48,7 +48,7 @@ dropout = 0.1                   # Dropout probability. (def: 0.1; float)
 convolve = 3                    # Convolution kernel in MHA-module. (def: 3; int; 0 ~ no convolution layer)
 ...cont.
 ```
-Paramter descriptions and available or standard values used in the paper (def.) are provided in the respective scripts.
+Paramter descriptions and available or standard values used in the paper (def.) are provided in the respective scripts. A full list is available in [Parameter_Settings](Parameter_settings.csv).
 The *EID* - is the identifier for an experiment run. Choose a unique EID per experiment run to not overwrite previous results. To load experiment results in the subsequent analysis or plotting modules insert the respective EID (or EIDs).
 
 #### Experiment Results
