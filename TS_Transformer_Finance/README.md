@@ -15,7 +15,7 @@ To evaluate model performance the experimental framework converts raw financial 
 In the experiment, the transformer model was first assessed on its performance on this task. Secondly, transformer- and, as a reference point, LSTM-based trading performance were contrasted and the experiment conculded  a short ablation study on the transformer components that were added to ready the original NLP model for time-series forecasting.
 
 ### Code and Data Structure
-The experiment was written in python code which is provided in the repository for download and execution in a standard python environment (Compatibility tested for Python 3.8). Necessary packages are listed in the **requirements doc**. 
+The experiment was written in python code which is provided in the repository for download and execution in a standard python environment (Compatibility tested for Python 3.8). Necessary packages are listed in the [requirements](requirements.txt) file. 
 The experiment itself was partitioned into the following: 
 
 **- Transformer Part** [Transformer_main](Transformer_main.py): includes data preprocessing, predictive transformer model and trading model
@@ -50,6 +50,9 @@ convolve = 3                    # Convolution kernel in MHA-module. (def: 3; int
 ```
 Paramter descriptions and available or standard values used in the paper (def.) are provided in the respective scripts. A full list is available in [Parameter_Settings](Parameter_settings.csv).
 The *EID* - is the identifier for an experiment run. Choose a unique EID per experiment run to not overwrite previous results. To load experiment results in the subsequent analysis or plotting modules insert the respective EID (or EIDs).
+
+#### Dataset
+Licence requirements prevent the dataset used in the experiments to be uploaded. The provided dataset consists of synthesised prices based on real prices that underwent a series of randomized transformations. Results will therefore vary from the examples provided. To obtain the real dataset, a consituent list including EIKON identifier codes for replication it directly is provided in the accompanying paper.  
 
 #### Experiment Results
 Detailed findings and interpretaions from the experiment are included in the thesis paper. The raw experiment data is equally provided in the experiment directory and can be used as input to the analysis and plotting modules.
