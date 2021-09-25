@@ -7,7 +7,7 @@ Time series prediction plays an important part in many fields of scientific rese
 
 Keywords:  *Transformer, LSTM, Finance, Time Series Prediction*
 
-The accomanying thesis paper is available from: **XXXXXXXX**
+The accomanying thesis paper is available as pdf: [Transformer Architecture in Deep Learning for Financial Price Forecasting](Transformer_Architecture_in_Deep_Learning_for_Financial_Price_Forecasting.pdf)
 
 ### Experiment Description
 The objective of the thesis paper was to implement a transformer for financial price prediction. the transformer architecture was first proposed in the paper *Attention is all you need* by Vaswani et al. (2017) and origninally developed for natural language processing (NLP). This repository contains the experimental code including the implementation of the transformer architecture, that was constructed based on the orininal NLP architecture with selected adaptations to the aim of financial price prediction. 
