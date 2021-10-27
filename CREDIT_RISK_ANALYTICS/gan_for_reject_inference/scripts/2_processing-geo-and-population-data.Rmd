@@ -1,0 +1,229 @@
+---
+title: "2. Uploading and processing France geo and population data"
+author: "Marina Serpinskaya"
+output: html_notebook
+---
+
+### Set up
+```{r, message="FALSE"}
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(banR, dplyr, here, httr, readxl, rmarkdown, stringr, tidyverse)
+
+library(banR)              # Geocoding French adresses with BanR
+library(dplyr)             # a Grammar of Data Manipulation
+library(here)              # simple way to find a direction
+library(httr)              # Tools for Working with URLs and HTTP
+library(readxl)            # to get data out of Excel and into R
+library(rmarkdown)         # rmarkdown
+library(stringr)           # Simple, Consistent Wrappers for Common String Operations
+library(tidyverse)         # tidy-R
+
+options(width=80)
+
+# working directory
+here::here()
+```
+
+### Processing geo and population information about communes
+```{r, message="FALSE"}
+temp <- tempfile()
+download.file("https://www.insee.fr/fr/statistiques/fichier/3720946/communes-01012019-csv.zip",temp)
+
+# communes_geo <-  read.csv2(unz(here::here("geodata", "communes-01012019.zip"), "arrondissement2019.csv"), header=T, quote="\"", sep=",", encoding = "UTF-8") #to read from folder
+communes_geo <- read.csv2(unz(temp, "communes-01012019.csv"), header=T, quote="\"", sep=",", encoding = "UTF-8")
+
+communes_geo <- communes_geo %>%
+  dplyr::rename(typecom = 1) %>% 
+  filter(typecom == "COM"|typecom == "ARM") %>%
+  filter(reg!=1 & reg!=2 & reg!=3 & reg!=4 & reg!=6 & reg!=94) %>% # remove overseas regions and Corsica
+  dplyr::rename(com_name_plain = ncc, com_name_rich = nccenr, com_name_richa = libelle) %>%
+  dplyr::select(com, can, arr, dep, reg, com_name_plain, com_name_rich, com_name_richa) %>%
+  dplyr::mutate(dplyr::across(where(is.integer), as.character))
+
+unlink(temp)
+
+#communes_pop <- read_excel(here::here("population-data", "ensemble.xls"), sheet = "Communes", skip = 7) #to read from folder
+GET("https://www.insee.fr/fr/statistiques/fichier/4265429/ensemble.xls", write_disk(temp <- tempfile(fileext = ".xls")))
+communes_pop <- read_excel(temp, sheet = "Communes", skip = 7)
+
+communes_pop <- communes_pop %>%
+  dplyr::select(-8,-9) %>%
+  dplyr::rename(reg = 1, region_name = 2, dep=3, arr=  4, can = 5, com = 6, commune_name = 7,  com_total_pop=8) %>%
+  mutate(com=paste0(dep, com, sep=""), arr=paste0(dep, arr, sep=""), can=paste0(dep, can, sep="")) %>%
+  dplyr::select(com, com_total_pop)
+  
+communes <- communes_geo %>%
+  left_join(communes_pop, by = "com")
+
+unlink(temp)
+
+```
+
+### Processing geo and population information about arrondissements
+```{r, message="FALSE"}
+temp <- tempfile()
+download.file("https://www.insee.fr/fr/statistiques/fichier/3720946/arrondissement2019-csv.zip",temp)
+
+#arrondissements_geo <-  read.csv2(unz(here::here("geodata", "arrondissement2019-csv.zip"), "arrondissement2019.csv"), header=T, quote="\"", sep=",", encoding = "UTF-8") #to read from folder
+
+arrondissements_geo <- read.csv2(unz(temp, "arrondissement2019.csv"), header=T, quote="\"", sep=",", encoding = "UTF-8")
+
+arrondissements_geo <- arrondissements_geo %>%
+  filter(reg!=1 & reg!=2 & reg!=3 & reg!=4 & reg!=6 & reg!=94) %>% # remove overseas regions and Corsica
+  dplyr::rename(arr_center = cheflieu, arr_name_plain = ncc, arr_name_rich = nccenr, arr_name_richa = libelle) %>%
+  dplyr::select(arr, dep, reg, arr_center, arr_name_plain, arr_name_rich, arr_name_richa) %>%
+  dplyr::mutate(dplyr::across(where(is.integer), as.character))
+
+#arrondissements_pop <- read_excel(here::here("population-data", "ensemble.xls"), sheet = "Arrondissements", skip = 7)  #to read from folder
+GET("https://www.insee.fr/fr/statistiques/fichier/4265429/ensemble.xls", write_disk(temp <- tempfile(fileext = ".xls")))
+arrondissements_pop <- read_excel(temp, sheet = "Arrondissements", skip = 7)
+
+arrondissements_pop <- arrondissements_pop %>%
+  dplyr::select(-8) %>%
+  dplyr::rename(reg = 1, region_name = 2, dep = 3, dep_name = 4, arr = 5, arr_name = 6, arr_number_of_communes = 7,  arr_total_pop=8) %>%
+  mutate(arr=paste0(dep, arr, sep="")) %>%
+  dplyr::select(arr, arr_name, arr_number_of_communes, arr_total_pop)
+
+arrondissements <- arrondissements_geo %>%
+  left_join(arrondissements_pop, by = "arr")
+
+unlink(temp)
+```
+
+### Processing geo and population information about departments
+```{r, , message="FALSE"}
+temp <- tempfile()
+download.file("https://www.insee.fr/fr/statistiques/fichier/3720946/departement2019-csv.zip", temp)
+
+#departments_geo <-  read.csv2(unz(here::here("geodata", "departement2019-csv.zip"), "departement2019.csv"), header=T, quote="\"", sep=",", encoding = "UTF-8") #to read from folder
+
+departments_geo <- read.csv2(unz(temp, "departement2019.csv"), header=T, quote="\"", sep=",", encoding = "UTF-8")
+
+
+departments_geo <- departments_geo %>%
+  filter(reg!=1 & reg!=2 & reg!=3 & reg!=4 & reg!=6 & reg!=94) %>% # remove overseas regions and Corsica
+  dplyr::rename(dep_center = cheflieu,  dep_name_plain = ncc, dep_name_rich = nccenr, dep_name_richa = libelle) %>%
+  dplyr::select(dep, reg, dep_center, dep_name_plain, dep_name_rich, dep_name_richa) %>%
+   dplyr::mutate(dplyr::across(where(is.integer), as.character))
+
+GET("https://www.insee.fr/fr/statistiques/fichier/4265429/ensemble.xls", write_disk(temp <- tempfile(fileext = ".xls")))
+departments_pop <- read_excel(temp, sheet = "Départements", skip = 7)
+
+#departments_pop <- read_excel(here::here("population-data", "ensemble.xls"), sheet = "Départements", skip = 7) #to read from folder
+
+departments_pop <- departments_pop %>%
+  dplyr::select(-8) %>%
+  dplyr::rename(reg = 1, region_name = 2, dep = 3, dep_name = 4, dep_number_of_arrondissements = 5, dep_number_of_cantons = 6,
+         dep_number_of_communes = 7, dep_total_pop=8) %>%
+  dplyr::select(dep, dep_name, dep_number_of_arrondissements, dep_number_of_cantons, dep_number_of_communes, dep_total_pop)
+  
+departments <- departments_geo %>%
+  left_join(departments_pop, by = "dep")
+
+unlink(temp)
+```
+
+### Processing geo and population information about regions
+```{r, processing geo and population information about regions, message="FALSE"}
+temp <- tempfile()
+download.file("https://www.insee.fr/fr/statistiques/fichier/3720946/region2019-csv.zip", temp)
+
+#regions_geo <-  read.csv2(unz(here::here("geodata", "region2019-csv.zip"), "region2019.csv"), header=T, quote="\"", sep=",", encoding = "UTF-8") #to read from folder
+
+regions_geo <-  read.csv2(unz(temp, "region2019.csv"), header=T, quote="\"", sep=",", encoding = "UTF-8") #to read from folder
+
+regions_geo <- regions_geo %>%
+  filter(reg!=1 & reg!=2 & reg!=3 & reg!=4 & reg!=6 & reg!=94) %>% # remove overseas regions and Corsica
+  dplyr::rename(reg_center = cheflieu,  reg_name_plain = ncc, reg_name_rich = nccenr, reg_name_richa = libelle) %>%
+  dplyr::select(reg, reg_center, reg_name_plain, reg_name_rich, reg_name_richa) %>%
+  dplyr::mutate(dplyr::across(where(is.integer), as.character))
+
+GET("https://www.insee.fr/fr/statistiques/fichier/4265429/ensemble.xls", write_disk(temp <- tempfile(fileext = ".xls")))
+regions_pop <- read_excel(temp, sheet = "Régions", skip = 7)
+
+#regions_pop <- read_excel(here::here("population-data", "ensemble.xls"), sheet = "Régions", skip = 7) #to read from folder
+
+regions_pop <- regions_pop %>%
+  dplyr::select(-6) %>%
+  dplyr::rename(reg = 1, region_name = 2, reg_number_of_arrondissements = 3, reg_number_of_cantons = 4,
+         reg_number_of_communes = 5, reg_total_pop=6) 
+
+regions <- regions_geo %>% 
+  left_join(regions_pop, by = "reg")
+
+unlink(temp)
+```
+
+### Gathering all information to communes table together
+```{r message=FALSE}
+
+# geo_codes <- read.csv2(here::here("geodata","correspondance-code-insee-code-postal.csv"), encoding = "UTF-8") #to read from folder
+
+# upload postcodes
+temp <- tempfile()
+download.file("https://data.opendatasoft.com/explore/dataset/code-postal-code-insee-2015@public/download/?format=csv&timezone=Europe/Berlin&use_labels_for_header=true&csv_separator=%3B",  temp)
+
+geo_codes <- read.csv2(temp, encoding = "UTF-8")
+
+
+geo_codes <- geo_codes %>%
+    dplyr::rename(com = INSEE_COM, reg = CODE_REG) %>% 
+    filter(reg!=1 & reg!=2 & reg!=3 & reg!=4 & reg!=6 & reg!=94) %>% # remove overseas regions and Corsica
+    tidyr:: separate(Geo.Point, c("lat", "lon"), sep = '\\,') %>%
+    dplyr::select(com, lat, lon)
+
+geo_data <- communes %>%
+  left_join(arrondissements, by = c("arr", "dep", "reg")) %>%
+  left_join(departments, by = c("dep", "reg")) %>%
+  left_join(regions, by = "reg")
+
+geo_data <- geo_data  %>%
+  left_join(geo_codes, by = "com", suffix = c("",".com")) %>% 
+  left_join(geo_codes, by = c("arr_center"="com"), suffix = c("", "_arr")) %>%
+  dplyr::rename(com_lat = lat, com_lon = lon, arr_lat = lat_arr, arr_lon = lon_arr) %>%
+  left_join(geo_codes, by = c("dep_center"="com"), suffix = c("", "_dep")) %>%
+  dplyr::rename(dep_lat = lat, dep_lon = lon) %>% 
+  distinct()
+
+
+geo_data$com_lat <- as.numeric(geo_data$com_lat)
+geo_data$com_lon <- as.numeric(geo_data$com_lon)
+geo_data$arr_lat <- as.numeric(geo_data$arr_lat)
+geo_data$arr_lon <- as.numeric(geo_data$arr_lon)
+geo_data$dep_lat <- as.numeric(geo_data$dep_lat)
+geo_data$dep_lon <- as.numeric(geo_data$dep_lon) 
+
+# add correct coordinates to cities with their own arrondisements 
+geo_data$arr_lat[geo_data$arr_name_plain=="PARIS"|geo_data$com_name_plain=="PARIS"] <- "48.8587741"
+geo_data$arr_lon[geo_data$arr_name_plain=="PARIS"|geo_data$com_name_plain=="PARIS"] <- "2.2069771"
+geo_data$com_lat[geo_data$arr_name_plain=="PARIS"|geo_data$com_name_plain=="PARIS"] <- "48.8587741"
+geo_data$com_lon[geo_data$arr_name_plain=="PARIS"|geo_data$com_name_plain=="PARIS"] <- "2.2069771"
+geo_data$arr_lat[geo_data$arr_name_plain=="MARSEILLE"|geo_data$com_name_plain=="MARSEILLE"] <- "43.2803051"
+geo_data$arr_lon[geo_data$arr_name_plain=="MARSEILLE"|geo_data$com_name_plain=="MARSEILLE"] <- "5.2404126"
+geo_data$com_lat[geo_data$arr_name_plain=="MARSEILLE"|geo_data$com_name_plain=="MARSEILLE"] <- "43.2803051"
+geo_data$com_lon[geo_data$arr_name_plain=="MARSEILLE"|geo_data$com_name_plain=="MARSEILLE"] <- "5.2404126"
+geo_data$arr_lat[geo_data$arr_name_plain=="LYON"|geo_data$com_name_plain=="LYON"] <- "45.7579341"
+geo_data$arr_lon[geo_data$arr_name_plain=="LYON"|geo_data$com_name_plain=="LYON"] <- "4.7650812"
+geo_data$com_lat[geo_data$arr_name_plain=="LYON"|geo_data$com_name_plain=="LYON"] <- "45.7579341"
+geo_data$com_lon[geo_data$arr_name_plain=="LYON"|geo_data$com_name_plain=="LYON"] <- "4.7650812"
+
+
+# add missing coordinates
+geo_data$com_lat[geo_data$com=="55138"] <- "48.7647732"
+geo_data$com_lon[geo_data$com=="55138"] <- "5.259865"
+geo_data$com_lat[geo_data$com=="76095"] <- "49.455277"
+geo_data$com_lon[geo_data$com=="76095"] <- "1.1191963"
+geo_data$com_lat[geo_data$com=="76601"] <- "51.9597298"
+geo_data$com_lon[geo_data$com=="76601"] <- "-1.7360666"
+
+
+unlink(temp)
+
+```
+### Removing not used data frames
+```{r}
+
+rm(list = ls()[grepl("_geo|_pop", ls())])
+
+```
+

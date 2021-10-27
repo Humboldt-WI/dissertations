@@ -1,0 +1,55 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+### Setup 
+
+```{r, setup, message="FALSE"}
+
+
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(magrittr, dplyr, rlang, microbenchmark, tree, microbenchmark, plyr, linkprediction, mltools)
+
+library(magrittr)
+library(dplyr)
+library(rlang)
+library(microbenchmark)
+library(tree)
+library(plyr)
+library(linkprediction)
+library(mltools)
+
+set.seed(42)
+
+```
+
+### AUC and k-folding functions
+```{r, functions}
+source("4_0_functions.R")
+
+```
+
+### Uploading functions for calculation of the network metrics
+```{r, network local metrics definition}
+
+source("4_1_network-metrics.R")
+
+```
+
+### Running link prediction for the p-space representation and nodes = arrondisements
+```{r, pspace arr-s}
+
+source("3_1_pspace_arr.R")
+source("4_2_metrics-calculation.R") #if error: run from the file
+auc_pspace_arr <- auc
+
+```
+
+### Running link prediction for the p-space representation and nodes = departments
+```{r, pspace dep-s}
+source("3_1_pspace_dep.R")
+source("4_2_metrics-calculation.R") #if error: run from the file
+auc_pspace_dep <- auc
+
+```
+

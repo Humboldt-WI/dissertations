@@ -1,0 +1,8 @@
+name: ba_vwl
+dependencies:
+  - pip=20.3
+  - python=3.8.5
+  - numpy-base=1.19
+  - pip:
+    - tensorflow==2.3.1
+    - tensorflow-lattice==2.0.6

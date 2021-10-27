@@ -1,0 +1,252 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+### Set up
+```{r, set up, message="FALSE", echo="FALSE"}
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(AER, aod, brainGraph, circlize, data.table, dplyr, ggplot2, ggraph, here, igraph, lubridate, maps, ndtv, network,
+               networkD3, ngram, plyr, markdown, sand,sna, sp, statnet, stringr, threejs, tidyverse, visNetwork)
+
+library(AER)               # Applied Econometrics with R
+library(aod)               # Analysis of Overdispersed Data
+library(brainGraph)        # Graph Theory Analysis of Brain MRI Data 
+library(circlize)          # Circular Visualization
+library(data.table)        # Extension of `data.frame`
+library(dplyr)             # a Grammar of Data Manipulation
+library(ggplot2)           # Create Elegant Data Visualisations Using the Grammar of Graphics
+library(ggraph)            # A grammar of graphics for relational data
+library(here)              # simple way to find a direction
+library(igraph)            # Network Analysis and Visualization
+library(lubridate)         # Make Dealing with Dates a Little Easier
+library(maps)              # Draw Geographical Maps
+library(ndtv)              # Network Dynamic Temporal Visualizaions
+library(network)           # Classes for Relational Data
+library(networkD3)         # D3 JavaScript Network Graphs from R
+library(ngram)             # Fast n-Gram 'Tokenization'
+library(plyr)              # Splitting, Applying and Combining Data
+library(rmarkdown)         # rmarkdown
+library(sand)              # Statistical Analysis of Network Data
+library(sna)               # Tools for Social Network Analysis
+library(sp)                # Classes and Methods for Spatial Data
+library(statnet)           # Statistical Analysis of Data Network
+library(stringr)           # Simple, Consistent Wrappers for Common String Operations
+library(threejs)           # Interactive 3D Scatter Plots, Networks and Globes
+library(tidyverse)         # tidy-R
+library(visNetwork)        # Network Visualization
+
+options(width=80)
+here::here()
+```
+
+# Nodes, nodes based on arrondissements and departments
+```{r, calculating nodes for different aggregation level}
+
+nodes <- rbind(nodes_FLIX, nodes_OUIB, nodes_EURL)
+nodes$insee_code <- ifelse(nchar(nodes$insee_code)==4, paste0("0", nodes$insee_code), nodes$insee_code)
+nodes$insee_code <- as.character(nodes$insee_code)
+nodes <- nodes %>%
+  dplyr::mutate(node_id = row_number())
+
+# returning all the arr-s with detailed information on arr's center
+arr <- geo_data %>%
+  filter(com==arr_center) %>% 
+  dplyr::select(arr,  arr_lat, arr_lon, arr_total_pop) %>%
+  mutate(arr_lat = as.numeric(arr_lat), arr_lon=as.numeric(arr_lon)) %>%
+  distinct()
+
+# adding geo details and grouping nodes by arr-s
+nodes_grouped_arr <- nodes %>%
+  left_join(geo_data, by=c("insee_code"="com")) %>% 
+  dplyr::select(stop_id, arr) %>%
+  distinct() %>% 
+  group_by(arr) %>%
+  dplyr::summarise(count=n())
+
+# returning all arr-s with information whether they in node or not 
+nodes_arr <- geo_data %>% 
+  dplyr::select(arr, arr_center, arr_name, arr_number_of_communes, arr_total_pop, arr_lat, arr_lon, dep, reg) %>% 
+  distinct %>% 
+  left_join(nodes_grouped_arr) %>%
+  replace(is.na(.), 0)
+
+# returning all the dep-s with detailed information on dep's center
+dep <- geo_data %>%
+  filter(com==dep_center) %>% 
+  dplyr::select(dep,  com_lat, com_lon, dep_total_pop) %>%
+  mutate(dep_lat = as.numeric(com_lat), dep_lon=as.numeric(com_lon)) %>%
+  distinct()
+
+# adding geo details and grouping nodes by dep-s
+nodes_grouped_dep <- nodes %>%
+  left_join(geo_data, by=c("insee_code"="com")) %>% 
+  dplyr::select(stop_id, dep) %>%
+  distinct() %>% 
+  group_by(dep) %>%
+  dplyr::summarise(count=n())
+
+# returning all dep-s with information whether they in node or not 
+nodes_dep <- geo_data %>%
+  filter(com==dep_center) %>% 
+  dplyr::select(dep, dep_center, dep_name, dep_lat, dep_lon, dep_total_pop,
+                 dep_number_of_communes, reg) %>%
+  distinct %>% 
+  left_join(nodes_grouped_dep, by = "dep") %>%
+  replace(is.na(.), 0)
+
+rm(nodes_grouped_dep, nodes_grouped_arr)
+  
+```
+
+
+
+# constructing network, arr-s, lspace
+```{r, constructing network, arr-s, lspace}
+
+source(here::here("scripts", "3_1_lspace_arr.R"))
+
+library(igraph)
+net_arr_lspace <- igraph::graph_from_data_frame(d=edges_arr_un, vertices = nodes_arr_connected, directed=F)
+V(net_arr_lspace)
+E(net_arr_lspace)
+V(net_arr_lspace)$deg <- igraph::degree(net_arr_lspace)
+
+
+deg <- igraph::degree(net_arr_lspace)
+
+
+hist(igraph::degree(net_arr_lspace), 
+     breaks = seq(0,(max(deg)+1), by=1),
+     xlab = "node degree (k)",
+     ylab = "Frequency",
+     main = "Node degree distribution",
+     ylim = range(pretty(c(0,table(deg)))),
+     col = "skyblue")
+
+# edge density
+edge_density(net_arr_lspace, loops=F)
+
+# efficiency
+brainGraph::efficiency(net_arr_lspace, type = c("global"))
+
+# clustering coefficient
+transitivity(net_arr_lspace, type="global")
+
+#assortativity
+assortativity(net_arr_lspace, V(net_arr_lspace)$deg)
+
+```
+
+# constructing network, arr-s, pspace
+```{r, constructing network, arr-s, pspace}
+
+source(here::here("scripts", "3_1_pspace_arr.R"))
+
+library(igraph)
+net_arr_pspace <- igraph::graph_from_data_frame(d=edges_arr_un, vertices = nodes_arr_connected, directed=F)
+V(net_arr_pspace)
+E(net_arr_pspace)
+V(net_arr_pspace)$deg <- igraph::degree(net_arr_pspace)
+
+
+deg <- igraph::degree(net_arr_pspace)
+
+
+hist(igraph::degree(net_arr_pspace), 
+     breaks = seq(0,(max(deg)+1), by=1),
+     xlab = "node degree (k)",
+     ylab = "Frequency",
+     main = "Node degree distribution",
+     ylim = range(pretty(c(0,table(deg)))),
+     col = "skyblue")
+
+# edge density
+edge_density(net_arr_pspace, loops=F)
+
+# efficiency
+brainGraph::efficiency(net_arr_pspace, type = c("global"))
+
+# clustering coefficient
+transitivity(net_arr_pspace, type="global")
+
+#assortativity
+assortativity(net_arr_pspace, V(net_arr_pspace)$deg)
+
+```
+
+# constructing network, dep-s, lspace
+```{r, constructing network, dep-s, lspace}
+
+source(here::here("scripts", "3_1_lspace_dep.R"))
+
+library(igraph)
+net_dep_lspace <- igraph::graph_from_data_frame(d=edges_dep_un, vertices = nodes_dep_connected, directed=F)
+V(net_dep_lspace)
+E(net_dep_lspace)
+V(net_dep_lspace)$deg <- igraph::degree(net_dep_lspace)
+
+
+deg <- igraph::degree(net_dep_lspace)
+
+
+hist(igraph::degree(net_dep_lspace), 
+     breaks = seq(0,(max(deg)+1), by=1),
+     xlab = "node degree (k)",
+     ylab = "Frequency",
+     main = "Node degree distribution",
+     ylim = range(pretty(c(0,table(deg)))),
+     col = "skyblue")
+
+# edge density
+edge_density(net_dep_lspace, loops=F)
+
+# efficiency
+brainGraph::efficiency(net_dep_lspace, type = c("global"))
+
+# clustering coefficient
+transitivity(net_dep_lspace, type="global")
+
+#assortativity
+
+assortativity(net_dep_lspace, V(net_dep_lspace)$deg)
+
+```
+
+# constructing network, dep-s, pspace
+```{r, constructing network, dep-s, pspace}
+
+source(here::here("scripts", "3_1_pspace_dep.R"))
+
+library(igraph)
+net_dep_pspace <- igraph::graph_from_data_frame(d=edges_dep_un, vertices = nodes_dep_connected, directed=F)
+V(net_dep_pspace)
+E(net_dep_pspace)
+V(net_dep_pspace)$deg <- igraph::degree(net_dep_pspace)
+
+
+deg <- igraph::degree(net_dep_pspace)
+
+
+hist(igraph::degree(net_dep_pspace), 
+     breaks = seq(0,(max(deg)+1), by=1),
+     xlab = "node degree (k)",
+     ylab = "Frequency",
+     main = "Node degree distribution",
+     ylim = range(pretty(c(0,table(deg)))),
+     col = "skyblue")
+
+# edge density
+edge_density(net_dep_pspace, loops=F)
+
+# efficiency
+brainGraph::efficiency(net_dep_pspace, type = c("global"))
+
+# clustering coefficient
+transitivity(net_dep_pspace, type="global")
+
+#assortativity
+
+assortativity(net_dep_pspace, V(net_dep_pspace)$deg)
+
+```
