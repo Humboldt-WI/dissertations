@@ -1,0 +1,5 @@
+﻿Activity,Toaster,Tumble_Dryer,Dishwasher,Washing_Machine,Television_Site,Microwave,Kettle
+cleaning,0,0,1,0,0,0,0
+laundering,0,1,0,1,0,0,0
+cooking,1,0,0,0,0,1,1
+entertainment,0,0,0,0,1,0,0
