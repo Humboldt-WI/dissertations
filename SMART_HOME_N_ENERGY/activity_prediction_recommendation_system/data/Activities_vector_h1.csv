@@ -1,0 +1,5 @@
+﻿Activity,Washer_Dryer,Washing_Machine,Dishwasher,Computer,Television
+cleaning,0,0,1,0,0
+laundering,1,1,0,0,0
+working,0,0,0,1,0
+entertainment,0,0,0,0,1

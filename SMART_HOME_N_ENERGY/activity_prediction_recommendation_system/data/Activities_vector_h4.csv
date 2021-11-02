@@ -1,0 +1,5 @@
+﻿Activity,Washing_Machine(1),Washing_Machine(2),Computer,Television_Site,Microwave,Kettle
+working,0,0,1,0,0,0
+laundering,1,1,0,0,0,0
+cooking,0,0,0,0,1,1
+entertainment,0,0,0,1,0,0
