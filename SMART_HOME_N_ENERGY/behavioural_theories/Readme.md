@@ -2,7 +2,9 @@ Master Thesis:
 # Using behavioural theories in the knowledge extraction from the energy consumption of private households
 
 Author: Katja Metzger
+
 Reviewers: Stefan Lessmann, Benjamin Fabian
+
 Supervisor: Alona Zharova
 
 ### Abstract:
