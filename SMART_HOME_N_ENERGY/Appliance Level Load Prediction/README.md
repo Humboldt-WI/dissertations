@@ -9,7 +9,7 @@
 
 ---
 
-This repository contains the code used for the Thesis on Deep Learning for Appliance Level Load Prediction
+This repository contains the code used for my thesis on Deep Learning for Appliance Level Load Prediction
 .
 
 ### Setup
