@@ -1,0 +1,7 @@
+tsfresh==0.19.0
+nolds==0.5.2
+tsfel==0.1.4
+eeglib==0.4.1
+statsmodels==0.13.2
+giotto-tda==0.5.1
+pyentrp==0.7.1
