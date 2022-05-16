@@ -44,11 +44,27 @@ pip install -r requirements.txt
 
 4. Place the folders `Deployment_1` and `Deployment_2` from `SMARTENERGY.KOM/Raw_Data` into `data` folder
 
-### Reproducing results
+## Reproducing results
 
 Describe steps how to reproduce your results.
 
-### Project structure
+Here are some examples:
+- [Paperswithcode](https://github.com/paperswithcode/releasing-research-code)
+- [ML Reproducibility Checklist](https://ai.facebook.com/blog/how-the-ai-community-can-get-serious-about-reproducibility/)
+
+### Training code
+
+xxx
+
+### Evaluation code
+
+xxx
+
+### Pre-trained models
+
+xxx
+
+## Project structure
 
 (Here is an example from SMART_HOME_N_ENERGY, "Appliance Level Load Prediction" repo)
 
