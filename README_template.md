@@ -54,8 +54,9 @@ Describe steps how to reproduce your results.
 
 Here are some examples:
 - [Paperswithcode](https://github.com/paperswithcode/releasing-research-code)
-- [Simple & clear example](https://github.com/paperswithcode/releasing-research-code/blob/master/templates/README.md) (!)
 - [ML Reproducibility Checklist](https://ai.facebook.com/blog/how-the-ai-community-can-get-serious-about-reproducibility/)
+- [Simple & clear Example from Paperswithcode](https://github.com/paperswithcode/releasing-research-code/blob/master/templates/README.md) (!)
+- [Example TensorFlow](https://github.com/NVlabs/selfsupervised-denoising)
 
 ### Training code
 
