@@ -16,7 +16,7 @@
 
 **Date of submission:** xx.xx.2022
 
-### Table of Content
+## Table of Content
 
 - [Summary](#summary)
 - [Working with the repo](#Working-with-the-repo)
