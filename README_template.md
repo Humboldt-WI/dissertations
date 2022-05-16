@@ -2,7 +2,7 @@
 
 [Insert here a figure explaining your approach or main results]
 
-![results](/linreg.jpg)
+![results](/SMART_HOME_N_ENERGY/behavioural_theories/Plots/AverageEnergyConservationIntention.png)
 
 **Type:** Master's Thesis / Bachelor's Thesis
 
