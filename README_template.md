@@ -55,7 +55,7 @@ Describe steps how to reproduce your results.
 Here are some examples:
 - [Paperswithcode](https://github.com/paperswithcode/releasing-research-code)
 - [ML Reproducibility Checklist](https://ai.facebook.com/blog/how-the-ai-community-can-get-serious-about-reproducibility/)
-- [Simple & clear example](https://github.com/paperswithcode/releasing-research-code/blob/master/templates/README.md)
+- [Simple & clear example](https://github.com/paperswithcode/releasing-research-code/blob/master/templates/README.md) (!)
 
 ### Training code
 
