@@ -16,6 +16,11 @@
 
 **Date of submission:** xx.xx.2022
 
+### Table of Content
+
+- [Summary](#summary)
+- [Working with the repo](#Working-with-the-repo)
+
 ## Summary
 
 (Short summary of motivation, contributions and results)
