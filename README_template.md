@@ -20,6 +20,14 @@
 
 - [Summary](#summary)
 - [Working with the repo](#Working-with-the-repo)
+-   [Dependencies](#Dependencies)
+-   [Setup](#Setup)
+- [Reproducing results](#Reproducing-results)
+-     [Training code](#Training-code)
+-     [Evaluation code](#Evaluation-code)
+-     [Pretrained models](#Pretrained models)
+- [Results](#Results)
+- [Project structure](-Project-structure)
 
 ## Summary
 
