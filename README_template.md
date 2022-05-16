@@ -14,9 +14,9 @@
 
 **2nd Examiner:** xxx 
 
-**Date of submission:** 01.01.2022
+**Date of submission:** xx.xx.2022
 
-## Abstract
+## Summary
 
 (Short summary of motivation, contributions and results)
 
@@ -54,8 +54,8 @@ Describe steps how to reproduce your results.
 
 Here are some examples:
 - [Paperswithcode](https://github.com/paperswithcode/releasing-research-code)
-- [ML Reproducibility Checklist](https://ai.facebook.com/blog/how-the-ai-community-can-get-serious-about-reproducibility/)
 - [Simple & clear example](https://github.com/paperswithcode/releasing-research-code/blob/master/templates/README.md) (!)
+- [ML Reproducibility Checklist](https://ai.facebook.com/blog/how-the-ai-community-can-get-serious-about-reproducibility/)
 
 ### Training code
 
