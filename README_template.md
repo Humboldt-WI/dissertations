@@ -1,11 +1,11 @@
-# Topic
+# Title
 
-Type: Master's Thesis / Bachelor's Thesis
-Author: Your Name
-#### Supervisor: Name Surname (only if different from 1st or 2nd Examiner)
-#### 1st Examiner: Name Surname
-#### 2nd Examiner: Name Surname
-#### Date of submission: 01.01.2022
+**Type:** Master's Thesis / Bachelor's Thesis
+**Author:** Your Name
+**Supervisor:** Name Surname (only if different from 1st or 2nd Examiner)
+**1st Examiner:** Name Surname
+**2nd Examiner:** Name Surname
+**Date of submission:** 01.01.2022
 
 
 ## Working with the repo
