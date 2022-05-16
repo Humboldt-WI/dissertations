@@ -1,5 +1,9 @@
 # Title
 
+[Insert here a figure explaining your approach or main results]
+
+![results](/linreg.jpg)
+
 **Type:** Master's Thesis / Bachelor's Thesis
 
 **Author:** xxx
@@ -20,13 +24,15 @@
 
 ## Working with the repo
 
-### Dependencies / Prerequisite
+### Dependencies
 
 Which Python version is required? 
 
-## Setup
+Does a repository have information on dependencies or instructions on how to set up the environment?
 
-[Is there a virtual environment that should be activated?]
+### Setup
+
+[This is an example]
 
 1. Clone this repository
 
@@ -42,8 +48,6 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-4. Place the folders `Deployment_1` and `Deployment_2` from `SMARTENERGY.KOM/Raw_Data` into `data` folder
-
 ## Reproducing results
 
 Describe steps how to reproduce your results.
@@ -54,15 +58,19 @@ Here are some examples:
 
 ### Training code
 
-xxx
+Does a repository contain a way to train/fit the model(s) described in the paper?
 
 ### Evaluation code
 
-xxx
+Does a repository contain a script to calculate the performance of the trained model(s) or run experiments on models?
 
-### Pre-trained models
+### Pretrained models
 
-xxx
+Does a repository provide free access to pretrained model weights?
+
+## Results
+
+Does a repository contain a table/plot of main results and a script to reproduce those results?
 
 ## Project structure
 
