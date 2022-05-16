@@ -1,7 +1,7 @@
 # Topic
 
-#### Type: Master's Thesis / Bachelor's Thesis
-#### Author: Your Name
+Type: Master's Thesis / Bachelor's Thesis
+Author: Your Name
 #### Supervisor: Name Surname (only if different from 1st or 2nd Examiner)
 #### 1st Examiner: Name Surname
 #### 2nd Examiner: Name Surname
