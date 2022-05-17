@@ -10,8 +10,6 @@
 
 **2nd Examiner:** xxx 
 
-**Date of submission:** xx.xx.2022
-
 [Insert here a figure explaining your approach or main results]
 
 ![results](/SMART_HOME_N_ENERGY/behavioural_theories/Plots/AverageEnergyConservationIntention.png)
