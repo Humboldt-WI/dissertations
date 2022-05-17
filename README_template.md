@@ -1,9 +1,5 @@
 # Title
 
-[Insert here a figure explaining your approach or main results]
-
-![results](/SMART_HOME_N_ENERGY/behavioural_theories/Plots/AverageEnergyConservationIntention.png)
-
 **Type:** Master's Thesis / Bachelor's Thesis
 
 **Author:** xxx
@@ -15,6 +11,10 @@
 **2nd Examiner:** xxx 
 
 **Date of submission:** xx.xx.2022
+
+[Insert here a figure explaining your approach or main results]
+
+![results](/SMART_HOME_N_ENERGY/behavioural_theories/Plots/AverageEnergyConservationIntention.png)
 
 ## Table of Content
 
